@@ -22,25 +22,49 @@ public class SceneChanger : MonoBehaviour
     {
         GameObject.Find("DNA").transform.Rotate(Vector3.up * 2 * Time.deltaTime);
     }
-    public void cellDivisionButton()
+
+    IEnumerator CameraZoom(int zoomValue)
+    {
+        GameObject user = GameObject.Find("User");
+        float t = 0f;
+        float duration = 1f;
+        Vector3 startPosition = user.transform.localPosition;
+        Vector3 endPosition = new Vector3(0, 0, transform.localPosition.z + zoomValue);
+
+        while (t < duration)
+        {
+            t += Time.deltaTime;
+            user.transform.localPosition = Vector3.Lerp(startPosition, endPosition, Mathf.SmoothStep(0, duration, t));
+            yield return null;
+        }
+        mainCamera.transform.localPosition = endPosition;
+    }
+
+    public IEnumerator ChangeToScene(int sceneNo)
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(sceneNo);
+    }
+
+    public void CellDivisionButton()
     {
         animator.Play("Fade_Out");
         StartCoroutine(ChangeToScene(1));
     }
 
-    public void zoomButton()
+    public void ZoomButton()
     {
         animator.Play("Fade_Out");
         StartCoroutine(ChangeToScene(2));
     }
 
-    public void quizButton()
+    public void QuizButton()
     {
         animator.Play("Fade_Out");
         StartCoroutine(ChangeToScene(3));
     }
 
-    public void mainMenuButton()
+    public void MainMenuButton()
     {
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneShown = currentScene.name;
@@ -61,13 +85,7 @@ public class SceneChanger : MonoBehaviour
         GameObject.Find(canvasName).transform.localScale = new Vector3(0, 0, 0);
     }
 
-    public IEnumerator ChangeToScene(int sceneNo)
-    {
-        yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(sceneNo);
-    }
-
-    //ChromosomeZoom method is used for MainCamera zoom when Chromosome GameObject is pressed
+    //Zoom from Chromosome to DNA
     public void ChromosomeZoom()
     {
         GameObject.Find("Second Canvas Group").transform.localScale = new Vector3(1, 1, 1);
@@ -75,7 +93,7 @@ public class SceneChanger : MonoBehaviour
         StartCoroutine(WaitASecond("First Canvas Group"));
     }
 
-    //DNAZoom method is used for MainCamera zoom when DNA GameObject is pressed
+    //Zoom from DNA to Gene
     public void DNAZoom()
     {
         GameObject.Find("Third Canvas Group").transform.localScale = new Vector3(1, 1, 1);
@@ -83,7 +101,7 @@ public class SceneChanger : MonoBehaviour
         StartCoroutine(WaitASecond("Second Canvas Group"));
     }
 
-    //GeneZoom method is used for MainCamera zoom when Gene GameObject is pressed
+    //Zoom from Gene to IntronsExons
     public void GeneZoom()
     {
         GameObject.Find("Fourth Canvas Group").transform.localScale = new Vector3(1, 1, 1);
@@ -91,29 +109,12 @@ public class SceneChanger : MonoBehaviour
         StartCoroutine(WaitASecond("Third Canvas Group"));
     }
 
-    //IntroneExoneZoom method is used for MainCamera zoom when IntroneExone GameObject is pressed
-    public void IntroneExoneZoom()
+    //Zoom from IntronsExons to Adenine
+    public void IntronsExonsZoom()
     {
         GameObject.Find("Fifth Canvas Group").transform.localScale = new Vector3(1, 1, 1);
         GameObject.Find("Adenine").transform.localScale = new Vector3(3.2f, 3.2f, 3.2f);
         StartCoroutine(CameraZoom(4865));
         StartCoroutine(WaitASecond("Fourth Canvas Group"));
-    }
-
-    IEnumerator CameraZoom(int zoomValue)
-    {
-        GameObject user = GameObject.Find("User");
-        float t = 0f;
-        float duration = 1f;
-        Vector3 startPosition = user.transform.localPosition;
-        Vector3 endPosition = new Vector3(0, 0, transform.localPosition.z + zoomValue);
-
-        while (t < duration)
-        {
-            t += Time.deltaTime;
-            user.transform.localPosition = Vector3.Lerp(startPosition, endPosition, Mathf.SmoothStep(0, duration, t));
-            yield return null;
-        }
-        mainCamera.transform.localPosition = endPosition;
     }
 }
