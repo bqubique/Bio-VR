@@ -6,10 +6,7 @@ public class rotationScript : MonoBehaviour
     public Vector3 adenineStartPosition;
     public Vector3 dnaStartPosition;
     public float speed = 1.2f;
-    GameObject whatever;
-    private bool chromosomeDisappeared = false;
 
-    private Vector3 newPosition;
     void Start()
     {
         chromosomeStartPosition = GameObject.Find("Chromosome").transform.position;         //get object position, save into chromosomeStartPosition
@@ -21,9 +18,9 @@ public class rotationScript : MonoBehaviour
     void Update()
     {
         GameObject.Find("Chromosome").transform.Rotate(Vector3.right *50 * Time.deltaTime);
-        GameObject.Find("Chromosome").transform.position = new Vector3(0, chromosomeStartPosition.y + Mathf.Sin(Time.time * speed), 10);
+        GameObject.Find("Chromosome").transform.position = new Vector3(0, chromosomeStartPosition.y - 0.6f + Mathf.Sin(Time.time * speed), 10);
 
-        GameObject.Find("Adenine").transform.position = new Vector3(adenineStartPosition.x, adenineStartPosition.y + Mathf.Sin(Time.time * 1.2f), adenineStartPosition.z);
+        GameObject.Find("Adenine").transform.position = new Vector3(adenineStartPosition.x, adenineStartPosition.y - 0.6f + Mathf.Sin(Time.time * 1.2f), adenineStartPosition.z);
         GameObject.Find("Adenine").transform.Rotate(Vector3.up * Time.deltaTime * 2f);
 
     }
