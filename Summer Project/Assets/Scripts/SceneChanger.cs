@@ -14,6 +14,7 @@ public class SceneChanger : MonoBehaviour
         GameObject.Find("Third Canvas Group").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Fourth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Fifth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Adenine").transform.localScale = new Vector3(0, 0, 0);
         mainCamera = Camera.main;
     }
 
@@ -94,6 +95,7 @@ public class SceneChanger : MonoBehaviour
     public void IntroneExoneZoom()
     {
         GameObject.Find("Fifth Canvas Group").transform.localScale = new Vector3(1, 1, 1);
+        GameObject.Find("Adenine").transform.localScale = new Vector3(3.2f, 3.2f, 3.2f);
         StartCoroutine(CameraZoom(4865));
         StartCoroutine(WaitASecond("Fourth Canvas Group"));
     }
