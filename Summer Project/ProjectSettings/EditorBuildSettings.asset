@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/WelcomeScreen.unity
+    guid: bd63145cdb8e45c48860b2163c31cb36
+  - enabled: 1
+    path: Assets/Scenes/CellDivisionScene.unity
+    guid: 24ec8e6be5890fd458277ff8f35082d8
+  - enabled: 1
+    path: Assets/Scenes/ZoomScene.unity
+    guid: 7ec315aa9647c004080d5b2c8bb34b14
+  - enabled: 1
+    path: Assets/Scenes/QuizScene.unity
+    guid: 02470b71458a51841ad5b9b5daa1c759
+  m_configObjects: {}
