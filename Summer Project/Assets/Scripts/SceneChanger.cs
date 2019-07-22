@@ -18,11 +18,6 @@ public class SceneChanger : MonoBehaviour
         mainCamera = Camera.main;
     }
 
-    void Update()
-    {
-        GameObject.Find("DNA").transform.Rotate(Vector3.up * 2 * Time.deltaTime);
-    }
-
     IEnumerator CameraZoom(int zoomValue)
     {
         GameObject user = GameObject.Find("User");
@@ -64,6 +59,19 @@ public class SceneChanger : MonoBehaviour
         StartCoroutine(ChangeToScene(3));
     }
 
+    void OnGUI()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        string sceneShown = currentScene.name;
+        if (Input.GetKeyDown(KeyCode.F7) && sceneShown != "QuizScene")
+        {
+            QuizButton();
+        }
+        else
+        {
+            return;
+        }
+    }
     public void MainMenuButton()
     {
         Scene currentScene = SceneManager.GetActiveScene();
