@@ -122,7 +122,7 @@ public class SceneChanger : MonoBehaviour
     {
         GameObject.Find("Fifth Canvas Group").transform.localScale = new Vector3(1, 1, 1);
         GameObject.Find("Adenine").transform.localScale = new Vector3(3.2f, 3.2f, 3.2f);
-        StartCoroutine(CameraZoom(4865));
+        StartCoroutine(CameraZoom(1385));
         StartCoroutine(WaitASecond("Fourth Canvas Group"));
     }
 }

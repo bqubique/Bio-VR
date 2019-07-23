@@ -1907,7 +1907,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7eb51e51995322448844c22b75c70f51,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.55
+      value: -7.13
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7eb51e51995322448844c22b75c70f51,
         type: 3}
@@ -10527,11 +10527,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 983a3e151cd916d4faf111dc86266574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlPoints:
-  - {x: -176.5886, y: -127.07149, z: 0}
-  - {x: -58.86286, y: -127.07149, z: 0}
-  - {x: 58.862873, y: -127.07149, z: 0}
-  - {x: 176.5886, y: -127.07149, z: 0}
 --- !u!1 &846507983
 GameObject:
   m_ObjectHideFlags: 0
@@ -16512,11 +16507,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 983a3e151cd916d4faf111dc86266574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlPoints:
-  - {x: -176.5886, y: -127.07149, z: 0}
-  - {x: -58.86286, y: -127.07149, z: 0}
-  - {x: 58.86287, y: -127.07149, z: 0}
-  - {x: 176.5886, y: -127.07149, z: 0}
 --- !u!1 &1369528964
 GameObject:
   m_ObjectHideFlags: 0
@@ -16643,19 +16633,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de815c5a2c592d4da033da3146168c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_TotalMinSize: {x: 0, y: 0}
-  m_TotalPreferredSize: {x: 0, y: 0}
-  m_TotalFlexibleSize: {x: 0, y: 0}
-  CurveOffset: {x: 0, y: 0, z: 0}
-  itemAxis: {x: 0, y: 0, z: 0}
-  itemSize: 0
-  centerpoint: 0.5
 --- !u!1001 &1369830441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18653,11 +18630,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 983a3e151cd916d4faf111dc86266574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlPoints:
-  - {x: -176.5886, y: 127.07149, z: 0}
-  - {x: -58.86286, y: 127.07149, z: 0}
-  - {x: 58.862873, y: 127.07149, z: 0}
-  - {x: 176.5886, y: 127.07149, z: 0}
 --- !u!1 &1600351014
 GameObject:
   m_ObjectHideFlags: 0
@@ -23732,11 +23704,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 983a3e151cd916d4faf111dc86266574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlPoints:
-  - {x: -176.5886, y: 127.07149, z: 0}
-  - {x: -58.86286, y: 127.07149, z: 0}
-  - {x: 58.86287, y: 127.07149, z: 0}
-  - {x: 176.5886, y: 127.07149, z: 0}
 --- !u!1 &2016433879
 GameObject:
   m_ObjectHideFlags: 0
