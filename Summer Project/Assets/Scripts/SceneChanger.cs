@@ -15,6 +15,8 @@ public class SceneChanger : MonoBehaviour
         GameObject.Find("Fourth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Fifth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Adenine").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Sixth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Guanine").transform.localScale = new Vector3(0, 0, 0);
         mainCamera = Camera.main;
     }
 
@@ -124,5 +126,14 @@ public class SceneChanger : MonoBehaviour
         GameObject.Find("Adenine").transform.localScale = new Vector3(3.2f, 3.2f, 3.2f);
         StartCoroutine(CameraZoom(1385));
         StartCoroutine(WaitASecond("Fourth Canvas Group"));
+    }
+
+    //Zoom from Adenine to Guanine
+    public void AdenineZoom()
+    {
+        GameObject.Find("Sixth Canvas Group").transform.localScale = new Vector3(1, 1, 1);
+        GameObject.Find("Guanine").transform.localScale = new Vector3(0.24658f, 0.24658f, 0.24658f);
+        StartCoroutine(CameraZoom(792));
+        StartCoroutine(WaitASecond("Fifth Canvas Group"));
     }
 }
