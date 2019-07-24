@@ -410,7 +410,6 @@ Transform:
   - {fileID: 2122638962}
   - {fileID: 520812466}
   - {fileID: 1973544176}
-  - {fileID: 68156691}
   - {fileID: 891490914}
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -1061,192 +1060,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1001 &68156690
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 31394915}
-    m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Name
-      value: Chromosome22
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.7797297
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 71.319664
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -189.53
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -1504981713932161579, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: cf4bda5df2ec7a44f84598d552054c8c, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9530abb34efa6a74f82c31d879964e01, type: 3}
---- !u!4 &68156691 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 68156690}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &68156692 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 68156690}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &68156693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68156692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!114 &68156694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68156692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  animator: {fileID: 0}
---- !u!114 &68156695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68156692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 68156694}
-          m_MethodName: sss
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &68156696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68156692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!65 &68156697
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68156692}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 18.891981, y: 10.604571, z: 2.025225}
-  m_Center: {x: 0.038948067, y: 0.0010683539, z: -0.004284501}
 --- !u!1 &69466380
 GameObject:
   m_ObjectHideFlags: 0
@@ -2657,16 +2470,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: intronExon
       objectReference: {fileID: 0}
-    - target: {fileID: -6915819657105789754, guid: 7eb51e51995322448844c22b75c70f51,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3ea6aee0a7cc476458a547a77bf0414e, type: 2}
     - target: {fileID: -4425609515867240179, guid: 7eb51e51995322448844c22b75c70f51,
         type: 3}
       propertyPath: m_Name
       value: IEDNA
       objectReference: {fileID: 0}
+    - target: {fileID: 4745788036908658983, guid: 7eb51e51995322448844c22b75c70f51,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6915819657105789754, guid: 7eb51e51995322448844c22b75c70f51,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ea6aee0a7cc476458a547a77bf0414e, type: 2}
     - target: {fileID: -4216859302048453862, guid: 7eb51e51995322448844c22b75c70f51,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2752,11 +2570,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3ea6aee0a7cc476458a547a77bf0414e, type: 2}
-    - target: {fileID: 4745788036908658983, guid: 7eb51e51995322448844c22b75c70f51,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6882831152338058926, guid: 7eb51e51995322448844c22b75c70f51,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2764,6 +2577,135 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3ea6aee0a7cc476458a547a77bf0414e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7eb51e51995322448844c22b75c70f51, type: 3}
+--- !u!1001 &156109254
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 254070966}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_Name
+      value: Chromosome
+      objectReference: {fileID: 0}
+    - target: {fileID: -7612045843681479967, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2156e9594c53bef4391c10abd457bf9b, type: 2}
+    - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.15498
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5711193
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.4315424
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255016271748007500, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.077
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255016271748007500, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5107887
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255016271748007500, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.48897344
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255016271748007500, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5107886
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255016271748007500, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.48897338
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255016271748007500, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255016271748007500, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 267.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255016271748007500, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255016271748007500, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.572
+      objectReference: {fileID: 0}
+    - target: {fileID: 4063835366044962077, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e4ffe7961dc3fde4881658da487a66bd, type: 2}
+    - target: {fileID: 4175593259817410184, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e4ffe7961dc3fde4881658da487a66bd, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 175abaf02cdc96a489562806830f1600, type: 3}
 --- !u!1 &158728747
 GameObject:
   m_ObjectHideFlags: 0
@@ -4510,7 +4452,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 68156694}
+        - m_Target: {fileID: 0}
           m_MethodName: sss
           m_Mode: 1
           m_Arguments:
@@ -4617,6 +4559,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251847032}
   m_CullTransparentMesh: 0
+--- !u!1 &254070965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 254070966}
+  m_Layer: 0
+  m_Name: Chromosome
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &254070966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254070965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.5749803, y: -2.5088806, z: 3.0184574}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1976421179}
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &259430407
 GameObject:
   m_ObjectHideFlags: 0
@@ -5789,7 +5762,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1170253585}
+        - m_Target: {fileID: 0}
           m_MethodName: sss
           m_Mode: 1
           m_Arguments:
@@ -5929,7 +5902,7 @@ RectTransform:
   - {fileID: 674706555}
   - {fileID: 716612019}
   m_Father: {fileID: 972783656}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 75, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6911,7 +6884,7 @@ RectTransform:
   - {fileID: 1415738669}
   - {fileID: 838913359}
   m_Father: {fileID: 1653906392}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 75, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7189,7 +7162,6 @@ Transform:
   - {fileID: 1926096855}
   - {fileID: 1282865657}
   - {fileID: 212600049}
-  - {fileID: 558620810}
   - {fileID: 602495245}
   - {fileID: 2141379228}
   m_Father: {fileID: 0}
@@ -7906,7 +7878,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
         type: 3}
@@ -9582,7 +9554,7 @@ RectTransform:
   - {fileID: 1736496487}
   - {fileID: 848147146}
   m_Father: {fileID: 2089608084}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 75, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9749,192 +9721,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1001 &549031961
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1313291794}
-    m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Name
-      value: Chromosome22
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.7797297
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 71.319664
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -189.53
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -1504981713932161579, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: cf4bda5df2ec7a44f84598d552054c8c, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9530abb34efa6a74f82c31d879964e01, type: 3}
---- !u!4 &549031962 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 549031961}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &549031963 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 549031961}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &549031964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 549031963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!114 &549031965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 549031963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 549031966}
-          m_MethodName: sss
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &549031966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 549031963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  animator: {fileID: 0}
---- !u!114 &549031967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 549031963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!65 &549031968
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 549031963}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 18.891981, y: 10.604571, z: 2.025225}
-  m_Center: {x: 0.038948067, y: 0.0010683539, z: -0.004284501}
 --- !u!1 &556276859
 GameObject:
   m_ObjectHideFlags: 0
@@ -10046,192 +9832,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556276859}
   m_CullTransparentMesh: 0
---- !u!1001 &558620809
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 387605540}
-    m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Name
-      value: Chromosome22
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.7797297
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 71.319664
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -189.53
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -1504981713932161579, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: cf4bda5df2ec7a44f84598d552054c8c, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9530abb34efa6a74f82c31d879964e01, type: 3}
---- !u!4 &558620810 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 558620809}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &558620811 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 558620809}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &558620812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558620811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!114 &558620813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558620811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  animator: {fileID: 0}
---- !u!114 &558620814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558620811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 558620813}
-          m_MethodName: sss
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &558620815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558620811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!65 &558620816
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558620811}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 18.891981, y: 10.604571, z: 2.025225}
-  m_Center: {x: 0.038948067, y: 0.0010683539, z: -0.004284501}
 --- !u!1 &564825916
 GameObject:
   m_ObjectHideFlags: 0
@@ -10304,7 +9904,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1369830446}
+        - m_Target: {fileID: 0}
           m_MethodName: sss
           m_Mode: 1
           m_Arguments:
@@ -11065,7 +10665,7 @@ RectTransform:
   - {fileID: 1363508467}
   - {fileID: 440442665}
   m_Father: {fileID: 387605540}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 75, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12900,7 +12500,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 824613367}
+        - m_Target: {fileID: 0}
           m_MethodName: sss
           m_Mode: 1
           m_Arguments:
@@ -15108,192 +14708,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822346642}
   m_CullTransparentMesh: 0
---- !u!1001 &824613362
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 972783656}
-    m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Name
-      value: Chromosome22
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.7797297
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 71.319664
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -189.53
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -1504981713932161579, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: cf4bda5df2ec7a44f84598d552054c8c, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9530abb34efa6a74f82c31d879964e01, type: 3}
---- !u!4 &824613363 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 824613362}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &824613364 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 824613362}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &824613365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824613364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!114 &824613366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824613364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 824613367}
-          m_MethodName: sss
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &824613367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824613364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  animator: {fileID: 0}
---- !u!114 &824613368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824613364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!65 &824613369
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824613364}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 18.891981, y: 10.604571, z: 2.025225}
-  m_Center: {x: 0.038948067, y: 0.0010683539, z: -0.004284501}
 --- !u!1 &825159452
 GameObject:
   m_ObjectHideFlags: 0
@@ -16004,7 +15418,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 978981761}
+        - m_Target: {fileID: 0}
           m_MethodName: sss
           m_Mode: 1
           m_Arguments:
@@ -17007,7 +16421,7 @@ RectTransform:
   - {fileID: 1874890809}
   - {fileID: 1010019762}
   m_Father: {fileID: 31394915}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 75, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -17631,7 +17045,6 @@ Transform:
   - {fileID: 722695832}
   - {fileID: 1837082850}
   - {fileID: 1110919577}
-  - {fileID: 978981757}
   - {fileID: 1926098958}
   - {fileID: 442590948}
   m_Father: {fileID: 0}
@@ -17980,7 +17393,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 549031966}
+        - m_Target: {fileID: 0}
           m_MethodName: sss
           m_Mode: 1
           m_Arguments:
@@ -18869,7 +18282,7 @@ RectTransform:
   - {fileID: 1600351015}
   - {fileID: 1748057090}
   m_Father: {fileID: 1313291794}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 75, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -19247,7 +18660,6 @@ Transform:
   - {fileID: 1554233162}
   - {fileID: 713271665}
   - {fileID: 1949540429}
-  - {fileID: 824613363}
   - {fileID: 324327749}
   m_Father: {fileID: 0}
   m_RootOrder: 15
@@ -19331,192 +18743,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972890822}
   m_CullTransparentMesh: 0
---- !u!1001 &978981756
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 913975602}
-    m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Name
-      value: Chromosome22
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.7797297
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 71.319664
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -189.53
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -1504981713932161579, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: cf4bda5df2ec7a44f84598d552054c8c, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9530abb34efa6a74f82c31d879964e01, type: 3}
---- !u!4 &978981757 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 978981756}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &978981758 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 978981756}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &978981759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978981758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!114 &978981760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978981758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 978981761}
-          m_MethodName: sss
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &978981761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978981758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  animator: {fileID: 0}
---- !u!114 &978981762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978981758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!65 &978981763
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978981758}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 18.891981, y: 10.604571, z: 2.025225}
-  m_Center: {x: 0.038948067, y: 0.0010683539, z: -0.004284501}
 --- !u!1 &982375290
 GameObject:
   m_ObjectHideFlags: 0
@@ -20236,7 +19462,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
         type: 3}
@@ -20684,7 +19910,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1960149780}
+        - m_Target: {fileID: 0}
           m_MethodName: sss
           m_Mode: 1
           m_Arguments:
@@ -21338,7 +20564,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -52.6, y: 0.1}
-  m_SizeDelta: {x: 165, y: 35}
+  m_SizeDelta: {x: 211.9, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1060587138
 MonoBehaviour:
@@ -22810,192 +22036,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153049764}
   m_CullTransparentMesh: 0
---- !u!1001 &1170253581
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1653906392}
-    m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Name
-      value: Chromosome22
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.7797297
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 71.319664
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -189.53
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -1504981713932161579, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: cf4bda5df2ec7a44f84598d552054c8c, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9530abb34efa6a74f82c31d879964e01, type: 3}
---- !u!4 &1170253582 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 1170253581}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1170253583 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 1170253581}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1170253584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1170253583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!114 &1170253585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1170253583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  animator: {fileID: 0}
---- !u!114 &1170253586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1170253583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1170253585}
-          m_MethodName: sss
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1170253587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1170253583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!65 &1170253588
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1170253583}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 18.891981, y: 10.604571, z: 2.025225}
-  m_Center: {x: 0.038948067, y: 0.0010683539, z: -0.004284501}
 --- !u!1 &1180586686
 GameObject:
   m_ObjectHideFlags: 0
@@ -24406,7 +23446,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 558620813}
+        - m_Target: {fileID: 0}
           m_MethodName: sss
           m_Mode: 1
           m_Arguments:
@@ -24894,6 +23934,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cytosine
       objectReference: {fileID: 0}
+    - target: {fileID: 680221170294918469, guid: 15ec959182c008b429187576c7d454b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8174915261405794079, guid: 15ec959182c008b429187576c7d454b5,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -25013,11 +24058,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -21.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 680221170294918469, guid: 15ec959182c008b429187576c7d454b5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 733744871908470125, guid: 15ec959182c008b429187576c7d454b5,
         type: 3}
@@ -25439,7 +24479,6 @@ Transform:
   - {fileID: 1523662497}
   - {fileID: 1729693107}
   - {fileID: 1405361084}
-  - {fileID: 549031962}
   - {fileID: 961910610}
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -26831,187 +25870,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de815c5a2c592d4da033da3146168c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1369830441
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2068753494}
-    m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Name
-      value: Chromosome
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.7797297
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 71.319664
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -172.58507
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -1504981713932161579, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3ea6aee0a7cc476458a547a77bf0414e, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9530abb34efa6a74f82c31d879964e01, type: 3}
---- !u!1 &1369830442 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 1369830441}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1369830443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369830442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!65 &1369830444
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369830442}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 18.891981, y: 10.604571, z: 2.025225}
-  m_Center: {x: 0.038948067, y: 0.0010683539, z: -0.004284501}
---- !u!114 &1369830445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369830442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1369830446}
-          m_MethodName: ChromosomeZoom
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1369830446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369830442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  animator: {fileID: 0}
---- !u!114 &1369830447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369830442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!4 &1369830450 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 1369830441}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1372883360
 GameObject:
   m_ObjectHideFlags: 0
@@ -31129,7 +29987,6 @@ Transform:
   - {fileID: 2004804110}
   - {fileID: 626088145}
   - {fileID: 349716152}
-  - {fileID: 1170253582}
   - {fileID: 377813682}
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -31523,7 +30380,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 11.47973, y: 93.84966}
-  m_SizeDelta: {x: 273.7, y: 117.2}
+  m_SizeDelta: {x: 272.47, y: 117.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1709541737
 GameObject:
@@ -36396,7 +35253,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -52.6, y: 105}
-  m_SizeDelta: {x: 165, y: 35}
+  m_SizeDelta: {x: 164.1, y: 47.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1918345866
 MonoBehaviour:
@@ -36573,7 +35430,7 @@ RectTransform:
   - {fileID: 693331965}
   - {fileID: 1903511489}
   m_Father: {fileID: 913975602}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 75, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -36945,7 +35802,7 @@ RectTransform:
   - {fileID: 723320186}
   - {fileID: 507849149}
   m_Father: {fileID: 2068753494}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 75, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -37241,192 +36098,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1956532750}
   m_CullTransparentMesh: 0
---- !u!1001 &1960149776
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2089608084}
-    m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Name
-      value: Chromosome22
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.7797297
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 71.319664
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -189.53
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -1504981713932161579, guid: 9530abb34efa6a74f82c31d879964e01,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: cf4bda5df2ec7a44f84598d552054c8c, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9530abb34efa6a74f82c31d879964e01, type: 3}
---- !u!4 &1960149777 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 1960149776}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1960149778 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 9530abb34efa6a74f82c31d879964e01,
-    type: 3}
-  m_PrefabInstance: {fileID: 1960149776}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1960149779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960149778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!114 &1960149780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960149778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  animator: {fileID: 0}
---- !u!114 &1960149781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960149778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1960149780}
-          m_MethodName: sss
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &1960149782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960149778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
---- !u!65 &1960149783
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960149778}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 18.891981, y: 10.604571, z: 2.025225}
-  m_Center: {x: 0.038948067, y: 0.0010683539, z: -0.004284501}
 --- !u!1 &1960779851
 GameObject:
   m_ObjectHideFlags: 0
@@ -37607,6 +36278,12 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!4 &1976421179 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+    type: 3}
+  m_PrefabInstance: {fileID: 156109254}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1981074335
 GameObject:
   m_ObjectHideFlags: 0
@@ -39558,7 +38235,6 @@ Transform:
   - {fileID: 2045698661}
   - {fileID: 1929352152}
   - {fileID: 1703628690}
-  - {fileID: 1369830450}
   - {fileID: 1947711142}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -39626,7 +38302,6 @@ Transform:
   - {fileID: 543429043}
   - {fileID: 1250954214}
   - {fileID: 69730925}
-  - {fileID: 1960149777}
   - {fileID: 524918278}
   m_Father: {fileID: 0}
   m_RootOrder: 17

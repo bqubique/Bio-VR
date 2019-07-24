@@ -22,10 +22,9 @@ public class rotationScript : MonoBehaviour
         GameObject.Find("User").transform.Translate(new Vector3(0f, 0f, 0f));
     }
 
-
     void Update()
     {
-        GameObject.Find("Chromosome").transform.Rotate(Vector3.right * 50 * Time.deltaTime);
+        GameObject.Find("Chromosome").transform.Rotate(Vector3.down * 50 * Time.deltaTime);
         GameObject.Find("Chromosome").transform.position = new Vector3(0, chromosomeStartPosition.y - 0.6f + Mathf.Sin(Time.time * speed), 10);
         GameObject.Find("DNA").transform.Rotate(Vector3.up * 4 * Time.deltaTime);
         GameObject.Find("IEDNA").transform.Rotate(Vector3.forward * 10 * Time.deltaTime);
