@@ -136,4 +136,13 @@ public class SceneChanger : MonoBehaviour
         StartCoroutine(CameraZoom(792));
         StartCoroutine(WaitASecond("Fifth Canvas Group"));
     }
+
+    //Zoom from Guanine to Cytosine
+    public void GuanineZoom()
+    {
+        GameObject.Find("Seventh Canvas Group").transform.localScale = new Vector3(1, 1, 1);
+        GameObject.Find("Cytosine").transform.localScale = new Vector3(0.116919f, 0.116919f, 0.116919f);
+        StartCoroutine(CameraZoom(1390));
+        StartCoroutine(WaitASecond("Sixth Canvas Group"));
+    }
 }
