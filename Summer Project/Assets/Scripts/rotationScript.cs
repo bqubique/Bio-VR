@@ -7,6 +7,7 @@ public class rotationScript : MonoBehaviour
     public Vector3 adenineStartPosition;
     public Vector3 guanineStartPosition;
     public Vector3 cytosineStartPosition;
+    public Vector3 thymineStartPosition;
     public Vector3 dnaStartPosition;
     public float speed = 1.2f;
 
@@ -15,7 +16,8 @@ public class rotationScript : MonoBehaviour
         chromosomeStartPosition = GameObject.Find("Chromosome").transform.position;         //get object position, save into chromosomeStartPosition
         adenineStartPosition = GameObject.Find("Adenine").transform.position;               //get object position, save into adenineStartPosition
         guanineStartPosition = GameObject.Find("Guanine").transform.position;               //get object position, save into guanineStartPosition
-        cytosineStartPosition = GameObject.Find("Cytosine").transform.position;               //get object position, save into guanineStartPosition
+        cytosineStartPosition = GameObject.Find("Cytosine").transform.position;               //get object position, save into cytosineStartPosition
+        thymineStartPosition = GameObject.Find("Thymine").transform.position;               //get object position, save into thymineStartPosition
         dnaStartPosition = GameObject.Find("DNA").transform.position;               //get object position, save into dnaStartPosition
         GameObject.Find("User").transform.Translate(new Vector3(0f, 0f, 0f));
     }
@@ -51,7 +53,14 @@ public class rotationScript : MonoBehaviour
         {
             StartCoroutine(StartCytosineRotation());
         }
-
+        if (GameObject.Find("Thymine").transform.localScale == new Vector3(0, 0, 0))
+        {
+            return;
+        }
+        else
+        {
+            StartCoroutine(StartThymineRotation());
+        }
     }
 
     public IEnumerator StartAdenineRotation()
@@ -73,5 +82,12 @@ public class rotationScript : MonoBehaviour
         yield return new WaitForSeconds(1);
         GameObject.Find("Cytosine").transform.position = new Vector3(cytosineStartPosition.x, cytosineStartPosition.y - 0.6f + Mathf.Sin(Time.time * 1.2f), cytosineStartPosition.z);
         GameObject.Find("Cytosine").transform.Rotate(Vector3.forward * Time.deltaTime * 2f);
+    }
+
+    public IEnumerator StartThymineRotation()
+    {
+        yield return new WaitForSeconds(1);
+        GameObject.Find("Thymine").transform.position = new Vector3(thymineStartPosition.x, thymineStartPosition.y - 0.6f + Mathf.Sin(Time.time * 1.2f), thymineStartPosition.z);
+        GameObject.Find("Thymine").transform.Rotate(Vector3.down * Time.deltaTime * 2f);
     }
 }

@@ -17,6 +17,8 @@ public class SceneChanger : MonoBehaviour
         GameObject.Find("Adenine").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Sixth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Guanine").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Eighth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Thymine").transform.localScale = new Vector3(0, 0, 0);
         mainCamera = Camera.main;
     }
 
@@ -144,5 +146,13 @@ public class SceneChanger : MonoBehaviour
         GameObject.Find("Cytosine").transform.localScale = new Vector3(0.116919f, 0.116919f, 0.116919f);
         StartCoroutine(CameraZoom(1390));
         StartCoroutine(WaitASecond("Sixth Canvas Group"));
+    }
+
+    public void CytosineZoom()
+    {
+        GameObject.Find("Eighth Canvas Group").transform.localScale = new Vector3(1, 1, 1);
+        GameObject.Find("Thymine").transform.localScale = new Vector3(3.760284f, 3.760284f, 3.760284f);
+        StartCoroutine(CameraZoom(1718));
+        StartCoroutine(WaitASecond("Seventh Canvas Group"));
     }
 }
