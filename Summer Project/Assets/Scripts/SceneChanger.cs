@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    public GameObject obj = GameObject.Find("Chromosome");
     public Animator animator;
     private Camera mainCamera;
     void Start()
