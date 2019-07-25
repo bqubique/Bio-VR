@@ -101,7 +101,7 @@ public class SceneChanger : MonoBehaviour
     public void ChromosomeZoom()
     {
         GameObject.Find("Second Canvas Group").transform.localScale = new Vector3(1, 1, 1);
-        StartCoroutine(CameraZoom(1172));
+        StartCoroutine(CameraZoom(994));
         StartCoroutine(WaitASecond("First Canvas Group"));
     }
 

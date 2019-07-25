@@ -412,7 +412,7 @@ Transform:
   - {fileID: 1973544176}
   - {fileID: 891490914}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &34608137
 GameObject:
@@ -669,7 +669,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -1593,7 +1593,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -2523,7 +2523,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7eb51e51995322448844c22b75c70f51,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7eb51e51995322448844c22b75c70f51,
         type: 3}
@@ -2582,7 +2582,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 254070966}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -927199367670048503, guid: 175abaf02cdc96a489562806830f1600,
         type: 3}
@@ -2597,42 +2597,42 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.15498
+      value: 1.5796447
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5711193
+      value: -4.08
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.4315424
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5
+      value: 0.5088722
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5
+      value: 0.5088722
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.5
+      value: -0.4909675
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5
+      value: -0.4909675
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
         type: 3}
@@ -2642,12 +2642,22 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
+      value: -452.052
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 90
+      value: 90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3255016271748007500, guid: 175abaf02cdc96a489562806830f1600,
         type: 3}
@@ -2706,6 +2716,69 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e4ffe7961dc3fde4881658da487a66bd, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 175abaf02cdc96a489562806830f1600, type: 3}
+--- !u!1 &156109255 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 175abaf02cdc96a489562806830f1600,
+    type: 3}
+  m_PrefabInstance: {fileID: 156109254}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &156109256
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156109255}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.31, y: 1, z: 1}
+  m_Center: {x: 4.16, y: 0.13, z: 1.55}
+--- !u!114 &156109257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156109255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  animator: {fileID: 0}
+--- !u!114 &156109258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156109255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 156109257}
+          m_MethodName: ChromosomeZoom
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &158728747
 GameObject:
   m_ObjectHideFlags: 0
@@ -4202,7 +4275,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -4559,37 +4632,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251847032}
   m_CullTransparentMesh: 0
---- !u!1 &254070965
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 254070966}
-  m_Layer: 0
-  m_Name: Chromosome
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &254070966
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254070965}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5749803, y: -2.5088806, z: 3.0184574}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1976421179}
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &259430407
 GameObject:
   m_ObjectHideFlags: 0
@@ -4832,7 +4874,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 60ca726ab94d80d428276bdb2e9452a2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 60ca726ab94d80d428276bdb2e9452a2,
         type: 3}
@@ -4890,7 +4932,6 @@ MonoBehaviour:
   cytosineStartPosition: {x: 0, y: 0, z: 0}
   thymineStartPosition: {x: 0, y: 0, z: 0}
   dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
 --- !u!65 &267421265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7957,7 +7998,6 @@ MonoBehaviour:
   cytosineStartPosition: {x: 0, y: 0, z: 0}
   thymineStartPosition: {x: 0, y: 0, z: 0}
   dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
 --- !u!65 &442590952
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11654,7 +11694,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -12000,7 +12040,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -16803,7 +16843,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -17939,7 +17979,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -18662,7 +18702,7 @@ Transform:
   - {fileID: 1949540429}
   - {fileID: 324327749}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &972890822
 GameObject:
@@ -20590,7 +20630,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -21299,7 +21339,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -52.6, y: -22.1}
-  m_SizeDelta: {x: 120, y: 20}
+  m_SizeDelta: {x: 119, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1111352789
 MonoBehaviour:
@@ -22387,7 +22427,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -22834,7 +22874,6 @@ MonoBehaviour:
   cytosineStartPosition: {x: 0, y: 0, z: 0}
   thymineStartPosition: {x: 0, y: 0, z: 0}
   dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
 --- !u!1 &1270267181
 GameObject:
   m_ObjectHideFlags: 0
@@ -23086,7 +23125,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -23992,7 +24031,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 15ec959182c008b429187576c7d454b5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 15ec959182c008b429187576c7d454b5,
         type: 3}
@@ -24267,7 +24306,6 @@ MonoBehaviour:
   cytosineStartPosition: {x: 0, y: 0, z: 0}
   thymineStartPosition: {x: 0, y: 0, z: 0}
   dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
 --- !u!1 &1306708812
 GameObject:
   m_ObjectHideFlags: 0
@@ -24481,7 +24519,7 @@ Transform:
   - {fileID: 1405361084}
   - {fileID: 961910610}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1315369371
 GameObject:
@@ -24904,7 +24942,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -26314,7 +26352,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 338df1d6bf3392c4a84633858a3121e6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 338df1d6bf3392c4a84633858a3121e6,
         type: 3}
@@ -26385,7 +26423,6 @@ MonoBehaviour:
   cytosineStartPosition: {x: 0, y: 0, z: 0}
   thymineStartPosition: {x: 0, y: 0, z: 0}
   dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
 --- !u!114 &1388084995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27384,7 +27421,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -29989,7 +30026,7 @@ Transform:
   - {fileID: 349716152}
   - {fileID: 377813682}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1675671542
 GameObject:
@@ -30443,7 +30480,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -32629,7 +32666,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -35279,7 +35316,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -35658,7 +35695,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -36278,12 +36315,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!4 &1976421179 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 175abaf02cdc96a489562806830f1600,
-    type: 3}
-  m_PrefabInstance: {fileID: 156109254}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1981074335
 GameObject:
   m_ObjectHideFlags: 0
@@ -37861,7 +37892,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: e9dcc8b8362d6d549b95f5d22486a64b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e9dcc8b8362d6d549b95f5d22486a64b,
         type: 3}
@@ -37919,7 +37950,6 @@ MonoBehaviour:
   cytosineStartPosition: {x: 0, y: 0, z: 0}
   thymineStartPosition: {x: 0, y: 0, z: 0}
   dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
 --- !u!65 &2050887561
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38185,7 +38215,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 6
     m_MaxSize: 71
     m_Alignment: 4
@@ -38304,7 +38334,7 @@ Transform:
   - {fileID: 69730925}
   - {fileID: 524918278}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2122638961
 GameObject:
@@ -38952,7 +38982,6 @@ MonoBehaviour:
   cytosineStartPosition: {x: 0, y: 0, z: 0}
   thymineStartPosition: {x: 0, y: 0, z: 0}
   dnaStartPosition: {x: 0, y: 0, z: 0}
-  speed: 1.2
 --- !u!114 &2141379230
 MonoBehaviour:
   m_ObjectHideFlags: 0

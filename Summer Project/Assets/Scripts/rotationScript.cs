@@ -9,7 +9,6 @@ public class rotationScript : MonoBehaviour
     public Vector3 cytosineStartPosition;
     public Vector3 thymineStartPosition;
     public Vector3 dnaStartPosition;
-    public float speed = 1.2f;
 
     void Start()
     {
@@ -24,8 +23,8 @@ public class rotationScript : MonoBehaviour
 
     void Update()
     {
-        GameObject.Find("Chromosome").transform.Rotate(Vector3.down * 50 * Time.deltaTime);
-        GameObject.Find("Chromosome").transform.position = new Vector3(0, chromosomeStartPosition.y - 0.6f + Mathf.Sin(Time.time * speed), 10);
+        //GameObject.Find("Chromosome").transform.RotateAround(Vector3.zero, transform.position, Time.deltaTime * 10);
+        GameObject.Find("Chromosome").transform.position = new Vector3(chromosomeStartPosition.x, chromosomeStartPosition.y - 0.6f + Mathf.Sin(Time.time * 1.2f), 10);
         GameObject.Find("DNA").transform.Rotate(Vector3.up * 4 * Time.deltaTime);
         GameObject.Find("IEDNA").transform.Rotate(Vector3.forward * 10 * Time.deltaTime);
         if (GameObject.Find("Adenine").transform.localScale == new Vector3(0, 0, 0))
