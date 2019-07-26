@@ -16,6 +16,7 @@ public class SceneChanger : MonoBehaviour
         GameObject.Find("Adenine").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Sixth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Guanine").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Cytosine").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Eighth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Thymine").transform.localScale = new Vector3(0, 0, 0);
         mainCamera = Camera.main;
@@ -75,6 +76,7 @@ public class SceneChanger : MonoBehaviour
             return;
         }
     }
+
     public void MainMenuButton()
     {
         Scene currentScene = SceneManager.GetActiveScene();

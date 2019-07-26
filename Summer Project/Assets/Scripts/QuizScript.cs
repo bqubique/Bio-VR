@@ -39,7 +39,7 @@ public class QuizScript : MonoBehaviour
         questionQueue.Dequeue();
         GameObject.Find("ZoomButton").transform.localScale = new Vector3(0, 0, 0);
         started = true;
-        if ((questionQueue.Count != 0) && (started = true))
+        if ((questionQueue.Count != 0) && (started == true))
         {
             string choice = EventSystem.current.currentSelectedGameObject.name;
             text.text = questionQueue.Peek();
