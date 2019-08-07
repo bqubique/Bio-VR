@@ -2514,7 +2514,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7eb51e51995322448844c22b75c70f51,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7eb51e51995322448844c22b75c70f51,
         type: 3}
@@ -2767,7 +2767,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 4
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 156109260}
+          m_MethodName: PointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 156109260}
+          m_MethodName: PointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 2
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -2796,12 +2830,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
+--- !u!114 &156109260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156109255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd85d9c80668268499e6d8ce0e32906e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gazeTime: 2
 --- !u!1 &158728747
 GameObject:
   m_ObjectHideFlags: 0
@@ -4942,12 +4983,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
 --- !u!65 &267421265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4974,7 +5009,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 4
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 267421268}
+          m_MethodName: PointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 267421268}
+          m_MethodName: PointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 2
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -5004,6 +5073,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+--- !u!114 &267421268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267421263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd85d9c80668268499e6d8ce0e32906e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gazeTime: 2
 --- !u!1 &271886685
 GameObject:
   m_ObjectHideFlags: 0
@@ -7969,7 +8051,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 4
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 442590954}
+          m_MethodName: PointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 442590954}
+          m_MethodName: PointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 2
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -7998,12 +8114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
 --- !u!65 &442590952
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8030,6 +8140,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+--- !u!114 &442590954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442590949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd85d9c80668268499e6d8ce0e32906e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gazeTime: 2
 --- !u!1 &465778577
 GameObject:
   m_ObjectHideFlags: 0
@@ -9160,7 +9283,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 4
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 512234156}
+          m_MethodName: PointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 512234156}
+          m_MethodName: PointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 2
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -9190,6 +9347,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 12.3201275, z: 1}
   m_Center: {x: 0, y: 5.6600637, z: 0}
+--- !u!114 &512234156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512234152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd85d9c80668268499e6d8ce0e32906e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gazeTime: 2
 --- !u!1 &514475681
 GameObject:
   m_ObjectHideFlags: 0
@@ -21920,7 +22090,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 338df1d6bf3392c4a84633858a3121e6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 338df1d6bf3392c4a84633858a3121e6,
         type: 3}
@@ -21973,7 +22143,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 4
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1144294082}
+          m_MethodName: PointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1144294082}
+          m_MethodName: PointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 2
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -21982,7 +22186,7 @@ MonoBehaviour:
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -22015,12 +22219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
 --- !u!65 &1144294081
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22034,6 +22232,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.11, y: 1, z: 1}
   m_Center: {x: 0.05, y: 0, z: 0}
+--- !u!114 &1144294082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144294077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd85d9c80668268499e6d8ce0e32906e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gazeTime: 2
 --- !u!1 &1152953349
 GameObject:
   m_ObjectHideFlags: 0
@@ -22996,12 +23207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1270267181
 GameObject:
   m_ObjectHideFlags: 0
@@ -24383,7 +24588,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 4
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1299228617}
+          m_MethodName: PointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1299228617}
+          m_MethodName: PointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 2
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -24425,12 +24664,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
+--- !u!114 &1299228617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299228612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd85d9c80668268499e6d8ce0e32906e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gazeTime: 2
 --- !u!1 &1306708812
 GameObject:
   m_ObjectHideFlags: 0
@@ -37823,7 +38069,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: e9dcc8b8362d6d549b95f5d22486a64b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e9dcc8b8362d6d549b95f5d22486a64b,
         type: 3}
@@ -37875,12 +38121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
 --- !u!65 &2050887561
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37945,7 +38185,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 4
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2050887565}
+          m_MethodName: PointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2050887565}
+          m_MethodName: PointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 2
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -37975,6 +38249,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+--- !u!114 &2050887565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050887559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd85d9c80668268499e6d8ce0e32906e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gazeTime: 2
 --- !u!1 &2051876001
 GameObject:
   m_ObjectHideFlags: 0
@@ -38264,7 +38551,7 @@ Transform:
   - {fileID: 69730925}
   - {fileID: 524918278}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2122638961
 GameObject:
@@ -38905,12 +39192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chromosomeStartPosition: {x: 0, y: 0, z: 0}
-  adenineStartPosition: {x: 0, y: 0, z: 0}
-  guanineStartPosition: {x: 0, y: 0, z: 0}
-  cytosineStartPosition: {x: 0, y: 0, z: 0}
-  thymineStartPosition: {x: 0, y: 0, z: 0}
-  dnaStartPosition: {x: 0, y: 0, z: 0}
 --- !u!114 &2141379230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38924,7 +39205,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 4
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2141379233}
+          m_MethodName: PointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2141379233}
+          m_MethodName: PointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 2
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -38952,7 +39267,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.937017, y: 7.995573, z: 1.368042}
+  m_Size: {x: 2.47, y: 8.76, z: 2.69}
   m_Center: {x: -0.0040004253, y: 0.20934772, z: 0.005432129}
 --- !u!114 &2141379232
 MonoBehaviour:
@@ -38967,3 +39282,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+--- !u!114 &2141379233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141379227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd85d9c80668268499e6d8ce0e32906e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gazeTime: 2

@@ -3,12 +3,12 @@ using UnityEngine;
 
 public class rotationScript : MonoBehaviour
 {
-    public Vector3 chromosomeStartPosition;
-    public Vector3 adenineStartPosition;
-    public Vector3 guanineStartPosition;
-    public Vector3 cytosineStartPosition;
-    public Vector3 thymineStartPosition;
-    public Vector3 dnaStartPosition;
+    private Vector3 chromosomeStartPosition;
+    private Vector3 adenineStartPosition;
+    private Vector3 guanineStartPosition;
+    private Vector3 cytosineStartPosition;
+    private Vector3 thymineStartPosition;
+    private Vector3 dnaStartPosition;
 
     void Start()
     {
