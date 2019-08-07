@@ -4422,7 +4422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '(Press to move forward)
+  m_Text: '(Gaze to move forward)
 
     (Turn head for additional information)'
 --- !u!222 &239255331
@@ -21753,7 +21753,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '(Press to move forward)
+  m_Text: '(Gaze to move forward)
 
     (Turn head for additional information)'
 --- !u!222 &1111352790
@@ -27429,7 +27429,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '(Press to move forward)
+  m_Text: '(Gaze to move forward)
 
     (Turn head for additional information)'
 --- !u!222 &1412564529
@@ -29838,7 +29838,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -52.6, y: 82.8}
-  m_SizeDelta: {x: 120, y: 20}
+  m_SizeDelta: {x: 120, y: 32.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1588437614
 MonoBehaviour:
@@ -29875,7 +29875,10 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '(You have reached the end)
 
-    (Turn head for additional information)'
+    (Gaze to move back to Chromosome)
+
+    (Turn
+    head for additional information)'
 --- !u!222 &1588437615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30530,7 +30533,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '(Press to move forward)
+  m_Text: '(Gaze to move forward)
 
     (Turn head for additional information)'
 --- !u!222 &1675671545
@@ -31747,7 +31750,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '(Press to move forward)
+  m_Text: '(Gaze to move forward)
 
     (Turn head for additional information)'
 --- !u!222 &1744432962
@@ -33901,7 +33904,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '(Press to move forward)
+  m_Text: '(Gaze to move forward)
 
     (Turn head for additional information)'
 --- !u!222 &1847767461
@@ -39448,7 +39451,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '(Press to move forward)
+  m_Text: '(Gaze to move forward)
 
     (Turn head for additional information)'
 --- !u!222 &2137350943
