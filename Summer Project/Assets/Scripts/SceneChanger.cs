@@ -13,12 +13,13 @@ public class SceneChanger : MonoBehaviour
         GameObject.Find("Third Canvas Group").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Fourth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Fifth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
-        GameObject.Find("Adenine").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Sixth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Eighth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Adenine").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Guanine").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Cytosine").transform.localScale = new Vector3(0, 0, 0);
-        GameObject.Find("Eighth Canvas Group").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Thymine").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("intronExon").transform.localScale = new Vector3(0, 0, 0);
         mainCamera = Camera.main;
     }
 
@@ -78,10 +79,10 @@ public class SceneChanger : MonoBehaviour
         }
     }
 
-    public IEnumerator WaitASecond(string canvasName)
+    public IEnumerator WaitASecond(string objectName)
     {
         yield return new WaitForSeconds(1);
-        GameObject.Find(canvasName).transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find(objectName).transform.localScale = new Vector3(0, 0, 0);
     }
 
     //Zoom from Chromosome to DNA
@@ -104,6 +105,7 @@ public class SceneChanger : MonoBehaviour
     public void GeneZoom()
     {
         GameObject.Find("Fourth Canvas Group").transform.localScale = new Vector3(1, 1, 1);
+        GameObject.Find("intronExon").transform.localScale = new Vector3(1.5f, 1, 1.5f);
         StartCoroutine(CameraZoom(3465));
         StartCoroutine(WaitASecond("Third Canvas Group"));
     }
@@ -115,6 +117,7 @@ public class SceneChanger : MonoBehaviour
         GameObject.Find("Adenine").transform.localScale = new Vector3(3.2f, 3.2f, 3.2f);
         StartCoroutine(CameraZoom(1385));
         StartCoroutine(WaitASecond("Fourth Canvas Group"));
+        StartCoroutine(WaitASecond("intronExon"));
     }
 
     //Zoom from Adenine to Guanine
@@ -124,6 +127,7 @@ public class SceneChanger : MonoBehaviour
         GameObject.Find("Guanine").transform.localScale = new Vector3(0.24658f, 0.24658f, 0.24658f);
         StartCoroutine(CameraZoom(792));
         StartCoroutine(WaitASecond("Fifth Canvas Group"));
+        //StartCoroutine(WaitASecond("Adenine"));
     }
 
     //Zoom from Guanine to Cytosine
@@ -133,6 +137,7 @@ public class SceneChanger : MonoBehaviour
         GameObject.Find("Cytosine").transform.localScale = new Vector3(0.116919f, 0.116919f, 0.116919f);
         StartCoroutine(CameraZoom(1390));
         StartCoroutine(WaitASecond("Sixth Canvas Group"));
+        //StartCoroutine(WaitASecond("Guanine"));
     }
 
     //Zoom from Cytosine to Thymine
@@ -142,12 +147,14 @@ public class SceneChanger : MonoBehaviour
         GameObject.Find("Thymine").transform.localScale = new Vector3(3.760284f, 3.760284f, 3.760284f);
         StartCoroutine(CameraZoom(1718));
         StartCoroutine(WaitASecond("Seventh Canvas Group"));
+        //StartCoroutine(WaitASecond("Cytosine"));
     }
 
     //Zoom out from Thymine to Chromosome back again
     public void ThymineZoom()
     {
         StartCoroutine(WaitASecond("Eighth Canvas Group"));
+        //StartCoroutine(WaitASecond("Thymine"));
         StartCoroutine(CameraZoom(-8626));
         Start();
     }
