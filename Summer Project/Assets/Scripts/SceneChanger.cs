@@ -79,6 +79,7 @@ public class SceneChanger : MonoBehaviour
         }
     }
 
+    //Make the object passed as a parameter to this coroutine disappear 1sec later
     public IEnumerator WaitASecond(string objectName)
     {
         yield return new WaitForSeconds(1);

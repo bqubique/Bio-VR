@@ -10,13 +10,6 @@ public class Gaze : MonoBehaviour
     private float timer;
     private bool gazedAt;
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
 
@@ -30,6 +23,10 @@ public class Gaze : MonoBehaviour
                 ExecuteEvents.Execute(gameObject, new PointerEventData(EventSystem.current), ExecuteEvents.pointerDownHandler);
                 timer = 0f;
             }
+        }
+        else
+        {
+            timer = 0;
         }
 
     }
