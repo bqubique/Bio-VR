@@ -464,7 +464,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 0}
   animator: {fileID: 0}
 --- !u!114 &783456995
 MonoBehaviour:
@@ -946,7 +945,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1600393215}
-          m_MethodName: quizButton
+          m_MethodName: QuizButton
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -970,7 +969,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 0}
   animator: {fileID: 0}
 --- !u!4 &1131101878 stripped
 Transform:
@@ -1141,7 +1139,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1600393215}
-          m_MethodName: cellDivisionButton
+          m_MethodName: CellDivisionButton
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1259,7 +1257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 0}
   animator: {fileID: 0}
 --- !u!1 &1349520572
 GameObject:
@@ -1591,7 +1588,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 0}
   animator: {fileID: 0}
 --- !u!1 &1490526090
 GameObject:
@@ -1811,7 +1807,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 0}
   animator: {fileID: 1600393213}
 --- !u!1 &1662399155
 GameObject:
@@ -2165,7 +2160,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 0}
   animator: {fileID: 0}
 --- !u!114 &1715102358
 MonoBehaviour:
