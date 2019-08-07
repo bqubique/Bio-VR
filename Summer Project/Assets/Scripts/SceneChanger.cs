@@ -63,20 +63,6 @@ public class SceneChanger : MonoBehaviour
         StartCoroutine(ChangeToScene(3));
     }
 
-    void OnGUI()
-    {
-        Scene currentScene = SceneManager.GetActiveScene();
-        string sceneShown = currentScene.name;
-        if (Input.GetKeyDown(KeyCode.F7) && sceneShown != "QuizScene")
-        {
-            QuizButton();
-        }
-        else
-        {
-            return;
-        }
-    }
-
     public void MainMenuButton()
     {
         Scene currentScene = SceneManager.GetActiveScene();
@@ -149,11 +135,20 @@ public class SceneChanger : MonoBehaviour
         StartCoroutine(WaitASecond("Sixth Canvas Group"));
     }
 
+    //Zoom from Cytosine to Thymine
     public void CytosineZoom()
     {
         GameObject.Find("Eighth Canvas Group").transform.localScale = new Vector3(1, 1, 1);
         GameObject.Find("Thymine").transform.localScale = new Vector3(3.760284f, 3.760284f, 3.760284f);
         StartCoroutine(CameraZoom(1718));
         StartCoroutine(WaitASecond("Seventh Canvas Group"));
+    }
+
+    //Zoom out from Thymine to Chromosome back again
+    public void ThymineZoom()
+    {
+        StartCoroutine(WaitASecond("Eighth Canvas Group"));
+        StartCoroutine(CameraZoom(-8626));
+        Start();
     }
 }
