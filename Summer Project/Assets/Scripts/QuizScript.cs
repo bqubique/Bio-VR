@@ -24,15 +24,61 @@ public class QuizScript : MonoBehaviour
         GameObject.Find("Tenth Question").transform.localScale = new Vector3(0, 0, 0);
     }
 
-    public void AnimationPlay()
+    public void FirstQuestion()
     {
-        StartCoroutine(waitOneSec());
+        StartCoroutine(DisplayAfterOneSec("First Question","Welcome Screen"));
     }
 
-    public System.Collections.IEnumerator waitOneSec()
+    public void SecondQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Second Question","First Question"));
+    }
+
+    public void ThirdQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Third Question","Second Question"));
+    }
+
+    public void FourthQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Fourth Question","Third Question"));
+    }
+
+    public void FifthQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Fifth Question","Fourth Question"));
+    }
+
+    public void SixthQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Sixth Question","Fifth Question"));
+    }
+
+    public void SeventhQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Seventh Question","Sixth Question"));
+    }
+
+    public void EighthQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Eighth Question","Seventh Question"));
+    }
+
+    public void NinthQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Ninth Question", "Eighth Question"));
+    }
+
+    public void TenthQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Tenth Question","Ninth Question"));
+    }
+    public System.Collections.IEnumerator DisplayAfterOneSec(string questionToDisplay, string questionToDisappear)
     {
         animator.Play("Fade_Out");
         yield return new WaitForSeconds(1);
+        GameObject.Find(questionToDisappear).transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find(questionToDisplay).transform.localScale = new Vector3(0.19f, 0.19f, 0.19f);
         animator.Play("Fade_In");
     }
 }

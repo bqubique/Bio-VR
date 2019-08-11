@@ -9583,7 +9583,7 @@ RectTransform:
   - {fileID: 924310522}
   - {fileID: 1133175626}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 75, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11466,7 +11466,7 @@ Transform:
   m_Children:
   - {fileID: 206959429}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1600393215
 MonoBehaviour:
@@ -12498,7 +12498,7 @@ GameObject:
   - component: {fileID: 1753322620}
   - component: {fileID: 1753322615}
   m_Layer: 5
-  m_Name: C
+  m_Name: Start Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12589,7 +12589,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1600393216}
-          m_MethodName: AnimationPlay
+          m_MethodName: FirstQuestion
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -12813,7 +12813,7 @@ RectTransform:
   m_Children:
   - {fileID: 1349520573}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14156,7 +14156,7 @@ Transform:
   - {fileID: 1282700553}
   - {fileID: 1722283413}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1964964476
 GameObject:
