@@ -5,48 +5,34 @@ using UnityEngine.UI;
 
 public class QuizScript : MonoBehaviour
 {
-    Queue<string> questionQueue = new Queue<string>();
-    private Text text;
+    public Animator animator;
     private int score = 0;
-    private List<string> answerList = new List<string>();
-    
     private bool started = false;
 
     void Start()
     {
-        fillTheQueue();
+        GameObject.Find("Welcome Screen").transform.localScale = new Vector3(0.19f, 0.19f, 0.19f);
+        GameObject.Find("First Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Second Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Third Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Fourth Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Fifth Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Sixth Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Seventh Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Eighth Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Ninth Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Tenth Question").transform.localScale = new Vector3(0, 0, 0);
     }
 
-    private void fillTheQueue()
+    public void AnimationPlay()
     {
-        questionQueue.Enqueue("This is a demo quiz to measure your knowledge on biology basics.Press Start to proceed with the first question.");
-        questionQueue.Enqueue("Yeps");
-        score++;
-        questionQueue.Enqueue("Yass");
-        score++;
-        questionQueue.Enqueue("Whatever");
-        score++;
-        questionQueue.Enqueue("Fine");
-        score++;
-        questionQueue.Enqueue("Afaik");
-        score++;
+        StartCoroutine(waitOneSec());
     }
 
-    public void DisplayQuestionToUser()
+    public System.Collections.IEnumerator waitOneSec()
     {
-        text = GameObject.Find("FirstTextField").GetComponent<Text>();
-        text.text = questionQueue.Peek();
-        questionQueue.Dequeue();
-        GameObject.Find("ZoomButton").transform.localScale = new Vector3(0, 0, 0);
-        started = true;
-        if ((questionQueue.Count != 0) && (started == true))
-        {
-            string choice = EventSystem.current.currentSelectedGameObject.name;
-            text.text = questionQueue.Peek();
-            answerList.Add(choice);
-            text.text += " you chose choice : " + choice;
-            questionQueue.Dequeue();
-        }
-        text.text = "You reached the end of the quiz. Your score is :  " + score;
+        animator.Play("Fade_Out");
+        yield return new WaitForSeconds(1);
+        animator.Play("Fade_In");
     }
 }

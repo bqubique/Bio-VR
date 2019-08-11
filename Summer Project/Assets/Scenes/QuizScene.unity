@@ -11426,6 +11426,7 @@ GameObject:
   - component: {fileID: 1600393214}
   - component: {fileID: 1600393213}
   - component: {fileID: 1600393215}
+  - component: {fileID: 1600393216}
   m_Layer: 0
   m_Name: Fader
   m_TagString: Untagged
@@ -11477,6 +11478,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1600393213}
+--- !u!114 &1600393216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600393212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1600393213}
@@ -12209,7 +12223,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Collagen
+  m_Text: C. Helicase
 --- !u!222 &1702701893
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12480,6 +12494,8 @@ GameObject:
   - component: {fileID: 1753322618}
   - component: {fileID: 1753322617}
   - component: {fileID: 1753322616}
+  - component: {fileID: 1753322621}
+  - component: {fileID: 1753322620}
   - component: {fileID: 1753322615}
   m_Layer: 5
   m_Name: C
@@ -12534,12 +12550,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1753322620}
+          m_MethodName: PointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1753322620}
+          m_MethodName: PointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   - eventID: 4
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1794087746}
-          m_MethodName: DisplayQuestionToUser
+        - m_Target: {fileID: 1600393216}
+          m_MethodName: AnimationPlay
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -12645,6 +12695,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753322613}
   m_CullTransparentMesh: 0
+--- !u!114 &1753322620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753322613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd85d9c80668268499e6d8ce0e32906e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gazeTime: 2
+--- !u!114 &1753322621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753322613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1600393213}
 --- !u!1 &1755082380
 GameObject:
   m_ObjectHideFlags: 0
@@ -12658,7 +12734,7 @@ GameObject:
   - component: {fileID: 1755082383}
   - component: {fileID: 1755082382}
   m_Layer: 5
-  m_Name: WelcomeScreen
+  m_Name: Welcome Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12893,7 +12969,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Elastin
+  m_Text: D. Primase
 --- !u!222 &1765532921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13156,6 +13232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!1 &1818555725
 GameObject:
   m_ObjectHideFlags: 0
@@ -14073,7 +14150,7 @@ Transform:
   m_GameObject: {fileID: 1945607235}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.126282, y: 9.495615, z: 16.852978}
-  m_LocalScale: {x: 0.999997, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 501545630}
   - {fileID: 1282700553}
