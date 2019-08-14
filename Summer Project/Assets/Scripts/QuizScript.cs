@@ -8,6 +8,7 @@ public class QuizScript : MonoBehaviour
     public Animator animator;
     private int score = 0;
     private bool started = false;
+    private List<string> buttonList;
 
     void Start()
     {
@@ -22,6 +23,17 @@ public class QuizScript : MonoBehaviour
         GameObject.Find("Eighth Question").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Ninth Question").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Tenth Question").transform.localScale = new Vector3(0, 0, 0);
+        buttonList = new List<string>();
+    }
+
+    void Update()
+    {
+        string buttonName = EventSystem.current.currentSelectedGameObject.name;
+        buttonList.Add(buttonName);
+        foreach(string s in buttonList)
+        {
+            Debug.Log(s);
+        }
     }
 
     public void FirstQuestion()
