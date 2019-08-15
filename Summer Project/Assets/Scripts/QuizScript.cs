@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -11,8 +12,8 @@ public class QuizScript : MonoBehaviour
 
     private int questionNo = 0;
     private float timeLeft = 90.0f;
-    private string answers = "";
     private List<string> buttonList;
+    private List<string> answerList;
 
     void Start()
     {
@@ -34,6 +35,8 @@ public class QuizScript : MonoBehaviour
         GameObject.Find("Fourteenth Question").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Fifteenth Question").transform.localScale = new Vector3(0, 0, 0);
         buttonList = new List<string>();
+        answerList = new List<string>();
+        fillAnswerList();
     }
 
     void Update()
@@ -45,21 +48,34 @@ public class QuizScript : MonoBehaviour
         }
         else if (timeLeft <= 0)
         {
-            GameEnded(answers);
+            GameEnded(buttonList);
         }
-        else if (timeLeft > 0 && questionNo == 16)
+        else if(questionNo == 15)
         {
-            GameEnded(answers);
+            GameEnded(buttonList);
         }
 
         string buttonName = EventSystem.current.currentSelectedGameObject.name;
         buttonList.Add(buttonName);
-        answers += " " + buttonName;
+    }
 
-        foreach (string s in buttonList)
-        {
-            Debug.Log(s);
-        }
+    private void fillAnswerList()
+    {
+        answerList.Add("FirstQA");
+        answerList.Add("SecondQA");
+        answerList.Add("ThirdQD");
+        answerList.Add("FourthQB");
+        answerList.Add("FifthQC");
+        answerList.Add("SixthQD");
+        answerList.Add("SeventhQD");
+        answerList.Add("EighthQC");
+        answerList.Add("NinthQD");
+        answerList.Add("TenthQB");
+        answerList.Add("EleventhQB");
+        answerList.Add("TwelfthQC");
+        answerList.Add("ThirteenthQB");
+        answerList.Add("FourteenthQA");
+        answerList.Add("FifteenthQD");
     }
 
     public void FirstQuestion()
@@ -160,10 +176,9 @@ public class QuizScript : MonoBehaviour
         animator.Play("Fade_In");
     }
 
-    public void GameEnded(string answersGiven)
+    private void GameEnded(List<string> listGiven)
     {
         GameObject.Find("Result Screen").transform.localScale = new Vector3(0.19f, 0.19f, 0.19f);
-        resultsText.text = answersGiven;
         GameObject.Find("Welcome Screen").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("First Question").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Second Question").transform.localScale = new Vector3(0, 0, 0);
@@ -180,5 +195,25 @@ public class QuizScript : MonoBehaviour
         GameObject.Find("Thirteenth Question").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Fourteenth Question").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Fifteenth Question").transform.localScale = new Vector3(0, 0, 0);
+        List<int> finalList = compareLists(listGiven);
+        Debug.Log(finalList.ToString());
+
+    }
+
+    private List<int> compareLists(List<string> givenAnswers)
+    {
+        List<int> returnedList = new List<int>();
+        for(int i=0; i<givenAnswers.Count; ++i)
+        {
+            if(givenAnswers[i] != answerList[i])
+            {
+                returnedList[i] = 0;
+            }
+            else
+            {
+                returnedList[i] = 1;
+            }
+        }
+        return returnedList;
     }
 }
