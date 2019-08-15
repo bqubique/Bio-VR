@@ -190,8 +190,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18.4, y: 4.2}
-  m_SizeDelta: {x: 347, y: 30}
+  m_AnchoredPosition: {x: 6, y: 4.2}
+  m_SizeDelta: {x: 417, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &46470588
 MonoBehaviour:
@@ -603,6 +603,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
   animator: {fileID: 0}
 --- !u!114 &54076700
 MonoBehaviour:
@@ -687,7 +689,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 10. Name the protein, which is responsible for the formation of RNA primer?
+  m_Text: 15. One side of a DNA strand is coded AGTCAGGATTC, what is the other side
+    of the DNA strand?
 --- !u!222 &58542720
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -735,8 +738,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18.4, y: 33.6}
-  m_SizeDelta: {x: 347, y: 30}
+  m_AnchoredPosition: {x: -10.1, y: 33.6}
+  m_SizeDelta: {x: 370.1, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &63863736
 MonoBehaviour:
@@ -1812,6 +1815,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
   animator: {fileID: 0}
 --- !u!114 &136623155
 MonoBehaviour:
@@ -2445,6 +2450,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
   animator: {fileID: 1600393213}
 --- !u!114 &180508373
 MonoBehaviour:
@@ -2529,7 +2536,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 10. Name the protein, which is responsible for the formation of RNA primer?
+  m_Text: 12. DNA can be found in what organelles in the cell?
 --- !u!222 &193446494
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2608,7 +2615,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Primase
+  m_Text: D. TCAGTCCTAAG
 --- !u!222 &195543379
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3181,6 +3188,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
   animator: {fileID: 0}
 --- !u!1 &224314291
 GameObject:
@@ -3557,7 +3566,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Gyrase
+  m_Text: B. Cytosine
 --- !u!222 &236559728
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4167,7 +4176,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Helicase
+  m_Text: C. Thymine
 --- !u!222 &292284391
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4277,7 +4286,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Helicase
+  m_Text: C. Mitochondria and Chloroplast
 --- !u!222 &303031061
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4356,7 +4365,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. DNA gyrase
+  m_Text: D. Watson and Crick
 --- !u!222 &308084690
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4656,6 +4665,101 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326018869}
   m_CullTransparentMesh: 0
+--- !u!1 &329446382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 329446383}
+  - component: {fileID: 329446386}
+  - component: {fileID: 329446385}
+  - component: {fileID: 329446384}
+  m_Layer: 5
+  m_Name: FirstTextField
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &329446383
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329446382}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -27.6}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
+  m_Children: []
+  m_Father: {fileID: 1086311247}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.2, y: -25.73}
+  m_SizeDelta: {x: 272.48, y: 144.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &329446384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329446382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
+  animator: {fileID: 0}
+--- !u!114 &329446385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329446382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, Unity.ugui,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &329446386
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329446382}
+  m_CullTransparentMesh: 0
 --- !u!1 &338956179
 GameObject:
   m_ObjectHideFlags: 0
@@ -4952,7 +5056,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Gyrase
+  m_Text: B. Mitochondria only
 --- !u!222 &389022393
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6794,7 +6898,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 7. Which of the following protein is required for connecting Okazaki fragments?
+  m_Text: '7. Double-helix structure of DNA is discovered by :'
 --- !u!222 &567123419
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7212,7 +7316,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 10. Name the protein, which is responsible for the formation of RNA primer?
+  m_Text: 11. What is guanine paired with in DNA?
 --- !u!222 &595552839
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7491,6 +7595,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
   animator: {fileID: 0}
 --- !u!1 &607805652
 GameObject:
@@ -7562,7 +7668,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Topoismerase
+  m_Text: A. Membrane
 --- !u!222 &607805655
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8175,7 +8281,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Primase
+  m_Text: D. Endoplasmic reticulum and Mitochondria
 --- !u!222 &718825864
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8785,7 +8891,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Topoismerase
+  m_Text: A. TCATTGGTAAT
 --- !u!222 &770220179
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8943,7 +9049,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Topoismerase
+  m_Text: A. DNA replication
 --- !u!222 &799598032
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9248,7 +9354,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 10. Name the protein, which is responsible for the formation of RNA primer?
+  m_Text: 14. What is the process of copying of DNA called?
 --- !u!222 &805817025
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9774,7 +9880,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Helicase
+  m_Text: C. Alternating sugar
 --- !u!222 &836832804
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10851,6 +10957,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
   animator: {fileID: 0}
 --- !u!114 &927029616
 MonoBehaviour:
@@ -11484,6 +11592,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
   animator: {fileID: 1600393213}
 --- !u!114 &954896533
 MonoBehaviour:
@@ -11941,7 +12051,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Helicase
+  m_Text: C. TCAGTCCTGGT
 --- !u!222 &998226833
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12481,6 +12591,105 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016518370}
   m_CullTransparentMesh: 0
+--- !u!1 &1026514123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1026514127}
+  - component: {fileID: 1026514126}
+  - component: {fileID: 1026514125}
+  - component: {fileID: 1026514124}
+  m_Layer: 5
+  m_Name: Time Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1026514124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026514123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1026514125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026514123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 50
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 10
+--- !u!223 &1026514126
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026514123}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1026514127
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026514123}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 62}
+  m_LocalScale: {x: 0.19, y: 0.19, z: 0.19}
+  m_Children:
+  - {fileID: 1912450322}
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -2.25, y: 49.9}
+  m_SizeDelta: {x: 333.22, y: 247.29}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1040972537
 GameObject:
   m_ObjectHideFlags: 0
@@ -12551,7 +12760,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Primase
+  m_Text: D. DNA formation
 --- !u!222 &1040972540
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12630,7 +12839,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Gyrase
+  m_Text: B. DNA multiplication
 --- !u!222 &1057585439
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12878,6 +13087,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
   animator: {fileID: 0}
 --- !u!1 &1071121817
 GameObject:
@@ -13263,6 +13474,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077015887}
   m_CullTransparentMesh: 0
+--- !u!1 &1086311246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1086311247}
+  m_Layer: 0
+  m_Name: WelcomeText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1086311247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086311246}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.4154582, y: 6.468105, z: 127.96053}
+  m_LocalScale: {x: 5.2631583, y: 5.2631583, z: 5.2631583}
+  m_Children:
+  - {fileID: 1412356657}
+  - {fileID: 329446383}
+  m_Father: {fileID: 1912450322}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1096139137
 GameObject:
   m_ObjectHideFlags: 0
@@ -13672,7 +13915,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 10. Name the protein, which is responsible for the formation of RNA primer?
+  m_Text: 10. What replaces thymine from DNA in RNA?
 --- !u!222 &1108799103
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14189,7 +14432,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Topoismerase
+  m_Text: A. Adenine
 --- !u!222 &1185731243
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15616,7 +15859,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Topoismerase
+  m_Text: A. Dominant genes
 --- !u!222 &1303405347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15921,7 +16164,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 9. Which of the following would relax negatively supercoiled DNA?
+  m_Text: 9. What does a nucleotide consist of?
 --- !u!222 &1319610703
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16435,7 +16678,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Helicase
+  m_Text: B. Nirenberg
 --- !u!222 &1355908327
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16713,7 +16956,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Type I topoisomerase
+  m_Text: B. A phosphate group and a Nitrogen Base
 --- !u!222 &1375628326
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17296,6 +17539,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407437664}
   m_CullTransparentMesh: 0
+--- !u!1 &1412356656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1412356657}
+  - component: {fileID: 1412356659}
+  - component: {fileID: 1412356658}
+  m_Layer: 5
+  m_Name: WelcomeTitle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1412356657
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412356656}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -29.8}
+  m_LocalScale: {x: 0.19, y: 0.19, z: 0.19}
+  m_Children: []
+  m_Father: {fileID: 1086311247}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.7, y: 2.54}
+  m_SizeDelta: {x: 185.5, y: 46.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1412356658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412356656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, Unity.ugui,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ae835a9128b721546b8e30892e979495, type: 3}
+    m_FontSize: 23
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Time Left:'
+--- !u!222 &1412356659
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412356656}
+  m_CullTransparentMesh: 0
 --- !u!1 &1423521498
 GameObject:
   m_ObjectHideFlags: 0
@@ -17544,7 +17866,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Gyrase
+  m_Text: B. TCAUTCCTAAG
 --- !u!222 &1431572912
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17906,8 +18228,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18.4, y: -57.2}
-  m_SizeDelta: {x: 347, y: 30}
+  m_AnchoredPosition: {x: 16.1, y: -57.2}
+  m_SizeDelta: {x: 442.3, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1486729196
 MonoBehaviour:
@@ -18317,7 +18639,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Topoismerase
+  m_Text: A. Adenine
 --- !u!222 &1496657912
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19206,6 +19528,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
   animator: {fileID: 1600393213}
 --- !u!1 &1606262896
 GameObject:
@@ -19277,7 +19601,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Primase
+  m_Text: C. Darwin
 --- !u!222 &1606262899
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19695,7 +20019,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. DNA gyrase
+  m_Text: A. Adenine Thymine Guanine Cytosine
 --- !u!222 &1636350009
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19853,7 +20177,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Watson and Crick
+  m_Text: C. Dioxide nickel acid
 --- !u!222 &1643010481
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19932,7 +20256,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Primase
+  m_Text: D. Nitrogen
 --- !u!222 &1654901779
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20467,7 +20791,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Helicase
+  m_Text: C. Ribose sugar
 --- !u!222 &1702701893
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20964,6 +21288,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
   animator: {fileID: 1600393213}
 --- !u!1 &1755082380
 GameObject:
@@ -21213,7 +21539,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 10. Name the protein, which is responsible for the formation of RNA primer?
+  m_Text: 13. What is another name for DNA?
 --- !u!222 &1760862525
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21292,7 +21618,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Primase
+  m_Text: D. Nothing
 --- !u!222 &1765532921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21450,7 +21776,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Scaffold protein
+  m_Text: A. Gobind Khurana
 --- !u!222 &1783010588
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21529,7 +21855,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Helicase
+  m_Text: C. DNA resurrection
 --- !u!222 &1787488385
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21634,6 +21960,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
   animator: {fileID: 0}
 --- !u!1 &1803078680
 GameObject:
@@ -21917,7 +22245,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Darwin
+  m_Text: D. Do not ask
 --- !u!222 &1818555728
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22521,7 +22849,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Gyrase
+  m_Text: B. Blueprint of life
 --- !u!222 &1900017117
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22756,6 +23084,115 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gazeTime: 2
+--- !u!1 &1912450321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1912450322}
+  - component: {fileID: 1912450325}
+  - component: {fileID: 1912450324}
+  - component: {fileID: 1912450323}
+  m_Layer: 5
+  m_Name: PanelInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1912450322
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912450321}
+  m_LocalRotation: {x: -0.22188878, y: 0, z: 0, w: 0.97507197}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1086311247}
+  m_Father: {fileID: 1026514127}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -25.64, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 62.05932}
+  m_SizeDelta: {x: 0, y: -124.11867}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!328 &1912450323
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912450321}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: 765a8eda9bd63a34d89c3ba677690c53, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: _MainTex
+  m_RenderMode: 2
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
+  m_Url: 
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+--- !u!114 &1912450324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912450321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.3137255}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, Unity.ugui,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 0.56
+--- !u!222 &1912450325
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912450321}
+  m_CullTransparentMesh: 0
 --- !u!1 &1918129308
 GameObject:
   m_ObjectHideFlags: 0
@@ -22995,6 +23432,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
   animator: {fileID: 1600393213}
 --- !u!1 &1925416925
 GameObject:
@@ -23066,7 +23505,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Elastin
+  m_Text: D. a sugar, a phosphate group, and a nitrogen base
 --- !u!222 &1925416928
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23537,7 +23976,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Primase
+  m_Text: D. Hereditary connection
 --- !u!222 &2005293728
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23585,8 +24024,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18.4, y: -57.2}
-  m_SizeDelta: {x: 347, y: 30}
+  m_AnchoredPosition: {x: -8.4, y: -65.3}
+  m_SizeDelta: {x: 376.2, y: 53.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2016963011
 MonoBehaviour:
@@ -23986,7 +24425,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Gyrase
+  m_Text: B. Uracil
 --- !u!222 &2066017901
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24230,6 +24669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2072115091}
+  - component: {fileID: 2072115092}
   m_Layer: 0
   m_Name: User
   m_TagString: Untagged
@@ -24252,6 +24692,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2072115092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072115090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeLeft: 30
+  timeText: {fileID: 329446385}
+  animator: {fileID: 0}
 --- !u!1 &2095774910
 GameObject:
   m_ObjectHideFlags: 0
@@ -24467,6 +24922,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeLeft: 60
+  timeText: {fileID: 0}
   animator: {fileID: 1600393213}
 --- !u!114 &2095774918
 MonoBehaviour:

@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class QuizScript : MonoBehaviour
 {
+    public float timeLeft = 20.0f;
+    public Text timeText;
     public Animator animator;
     private int score = 0;
     private bool started = false;
@@ -33,12 +35,22 @@ public class QuizScript : MonoBehaviour
 
     void Update()
     {
+        if (timeLeft > 0)
+        {
+            timeLeft -= Time.deltaTime;
+            timeText.text = timeLeft.ToString("0.0");
+        }
+        else if (timeLeft < 0)
+        {
+            Start();
+        }
         string buttonName = EventSystem.current.currentSelectedGameObject.name;
         buttonList.Add(buttonName);
         foreach(string s in buttonList)
         {
             Debug.Log(s);
         }
+
     }
 
     public void FirstQuestion()
