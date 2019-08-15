@@ -16034,7 +16034,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Dominant genes
+  m_Text: A. Dominant gene
 --- !u!222 &1303405347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23775,7 +23775,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. a sugar, a phosphate group, and a nitrogen base
+  m_Text: D. Sugar, phosphate group, and a nitrogenous base
 --- !u!222 &1925416928
 CanvasRenderer:
   m_ObjectHideFlags: 0
