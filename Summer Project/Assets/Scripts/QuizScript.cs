@@ -23,6 +23,11 @@ public class QuizScript : MonoBehaviour
         GameObject.Find("Eighth Question").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Ninth Question").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Tenth Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Eleventh Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Twelfth Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Thirteenth Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Fourteenth Question").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Fifteenth Question").transform.localScale = new Vector3(0, 0, 0);
         buttonList = new List<string>();
     }
 
@@ -84,6 +89,31 @@ public class QuizScript : MonoBehaviour
     public void TenthQuestion()
     {
         StartCoroutine(DisplayAfterOneSec("Tenth Question","Ninth Question"));
+    }
+
+    public void EleventhQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Eleventh Question", "Tenth Question"));
+    }
+
+    public void TwelfthQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Twelfth Question", "Eleventh Question"));
+    }
+
+    public void ThirteenthQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Thirteenth Question", "Twelfth Question"));
+    }
+
+    public void FourteenthQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Fourteenth Question", "Thirteenth Question"));
+    }
+
+    public void FifteenthQuestion()
+    {
+        StartCoroutine(DisplayAfterOneSec("Fifteenth Question", "Fourteenth Question"));
     }
     public System.Collections.IEnumerator DisplayAfterOneSec(string questionToDisplay, string questionToDisappear)
     {
