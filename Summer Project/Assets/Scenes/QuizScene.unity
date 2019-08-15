@@ -391,7 +391,6 @@ GameObject:
   - component: {fileID: 54076696}
   - component: {fileID: 54076695}
   - component: {fileID: 54076700}
-  - component: {fileID: 54076699}
   - component: {fileID: 54076694}
   m_Layer: 5
   m_Name: ThirdQB
@@ -591,21 +590,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54076692}
   m_CullTransparentMesh: 0
---- !u!114 &54076699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54076692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
-  animator: {fileID: 0}
 --- !u!114 &54076700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1603,7 +1587,6 @@ GameObject:
   - component: {fileID: 136623151}
   - component: {fileID: 136623150}
   - component: {fileID: 136623155}
-  - component: {fileID: 136623154}
   - component: {fileID: 136623149}
   m_Layer: 5
   m_Name: SecondQB
@@ -1803,21 +1786,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136623147}
   m_CullTransparentMesh: 0
---- !u!114 &136623154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136623147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
-  animator: {fileID: 0}
 --- !u!114 &136623155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2249,7 +2217,6 @@ GameObject:
   - component: {fileID: 180508369}
   - component: {fileID: 180508368}
   - component: {fileID: 180508373}
-  - component: {fileID: 180508372}
   - component: {fileID: 180508367}
   m_Layer: 5
   m_Name: FirstQB
@@ -2342,7 +2309,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 180508372}
+        - m_Target: {fileID: 1600393216}
           m_MethodName: SecondQuestion
           m_Mode: 1
           m_Arguments:
@@ -2438,21 +2405,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180508365}
   m_CullTransparentMesh: 0
---- !u!114 &180508372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 180508365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
-  animator: {fileID: 1600393213}
 --- !u!114 &180508373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2962,7 +2914,6 @@ GameObject:
   - component: {fileID: 213364920}
   - component: {fileID: 213364919}
   - component: {fileID: 213364918}
-  - component: {fileID: 213364923}
   - component: {fileID: 213364922}
   - component: {fileID: 213364917}
   m_Layer: 5
@@ -3176,21 +3127,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gazeTime: 2
---- !u!114 &213364923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 213364915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
-  animator: {fileID: 0}
 --- !u!1 &224314291
 GameObject:
   m_ObjectHideFlags: 0
@@ -4692,7 +4628,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329446382}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -27.6}
+  m_LocalPosition: {x: 0, y: 0, z: -24.58}
   m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_Children: []
   m_Father: {fileID: 1086311247}
@@ -4700,8 +4636,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.2, y: -25.73}
-  m_SizeDelta: {x: 272.48, y: 144.5}
+  m_AnchoredPosition: {x: -0.2, y: -6.73}
+  m_SizeDelta: {x: 27.1, y: 24.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &329446384
 MonoBehaviour:
@@ -4715,9 +4651,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
   animator: {fileID: 0}
+  timeText: {fileID: 0}
+  resultsText: {fileID: 0}
 --- !u!114 &329446385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7369,7 +7305,6 @@ GameObject:
   - component: {fileID: 606958968}
   - component: {fileID: 606958967}
   - component: {fileID: 606958966}
-  - component: {fileID: 606958971}
   - component: {fileID: 606958970}
   - component: {fileID: 606958965}
   m_Layer: 5
@@ -7583,21 +7518,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gazeTime: 2
---- !u!114 &606958971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606958963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
-  animator: {fileID: 0}
 --- !u!1 &607805652
 GameObject:
   m_ObjectHideFlags: 0
@@ -8481,9 +8401,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 20
-  timeText: {fileID: 0}
   animator: {fileID: 0}
+  timeText: {fileID: 0}
+  resultsText: {fileID: 0}
 --- !u!1 &758387136
 GameObject:
   m_ObjectHideFlags: 0
@@ -10860,7 +10780,6 @@ GameObject:
   - component: {fileID: 927029612}
   - component: {fileID: 927029611}
   - component: {fileID: 927029616}
-  - component: {fileID: 927029615}
   - component: {fileID: 927029610}
   m_Layer: 5
   m_Name: FourthQD
@@ -11060,21 +10979,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927029608}
   m_CullTransparentMesh: 0
---- !u!114 &927029615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927029608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
-  animator: {fileID: 0}
 --- !u!114 &927029616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11653,7 +11557,6 @@ GameObject:
   - component: {fileID: 954896535}
   - component: {fileID: 954896534}
   - component: {fileID: 954896533}
-  - component: {fileID: 954896532}
   - component: {fileID: 954896531}
   m_Layer: 5
   m_Name: FirstQC
@@ -11695,21 +11598,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
---- !u!114 &954896532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954896529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
-  animator: {fileID: 1600393213}
 --- !u!114 &954896533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11774,7 +11662,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 954896532}
+        - m_Target: {fileID: 1600393216}
           m_MethodName: SecondQuestion
           m_Mode: 1
           m_Arguments:
@@ -12976,7 +12864,6 @@ GameObject:
   - component: {fileID: 1069239606}
   - component: {fileID: 1069239605}
   - component: {fileID: 1069239604}
-  - component: {fileID: 1069239609}
   - component: {fileID: 1069239608}
   - component: {fileID: 1069239603}
   m_Layer: 5
@@ -13190,21 +13077,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gazeTime: 2
---- !u!114 &1069239609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1069239601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
-  animator: {fileID: 0}
 --- !u!1 &1071121817
 GameObject:
   m_ObjectHideFlags: 0
@@ -17868,7 +17740,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412356656}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -29.8}
+  m_LocalPosition: {x: 0, y: 0, z: -24.33}
   m_LocalScale: {x: 0.19, y: 0.19, z: 0.19}
   m_Children: []
   m_Father: {fileID: 1086311247}
@@ -17876,7 +17748,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.7, y: 2.54}
+  m_AnchoredPosition: {x: 0.7, y: 3.12}
   m_SizeDelta: {x: 185.5, y: 46.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1412356658
@@ -18191,7 +18063,7 @@ GameObject:
   - component: {fileID: 1475649035}
   - component: {fileID: 1475649034}
   m_Layer: 5
-  m_Name: FirstTextField
+  m_Name: Results Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18228,9 +18100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
   animator: {fileID: 0}
+  timeText: {fileID: 0}
+  resultsText: {fileID: 1475649035}
 --- !u!114 &1475649035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18264,11 +18136,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'This is a quiz you can take in order to measure your general knowledge
-    in Biology. You''ll be presented with 25 questions regarding Cell, DNA, Genes
-    and Nucleotide.
-
-    Press Start whenever you feel like.'
+  m_Text: Welp!
 --- !u!222 &1475649036
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18601,7 +18469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1486536098}
   m_Layer: 0
-  m_Name: wwwww
+  m_Name: PanelInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19962,9 +19830,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
   animator: {fileID: 1600393213}
+  timeText: {fileID: 0}
+  resultsText: {fileID: 0}
 --- !u!1 &1606262896
 GameObject:
   m_ObjectHideFlags: 0
@@ -21496,7 +21364,6 @@ GameObject:
   - component: {fileID: 1753322618}
   - component: {fileID: 1753322617}
   - component: {fileID: 1753322616}
-  - component: {fileID: 1753322621}
   - component: {fileID: 1753322620}
   - component: {fileID: 1753322615}
   m_Layer: 5
@@ -21710,21 +21577,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gazeTime: 2
---- !u!114 &1753322621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1753322613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
-  animator: {fileID: 1600393213}
 --- !u!1 &1755082380
 GameObject:
   m_ObjectHideFlags: 0
@@ -22369,7 +22221,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Welp.
+  m_Text: 'This is a quiz you can take in order to measure your general knowledge
+    in Biology. You''ll be presented with 15 questions regarding Cell, DNA, Genes
+    and Nucleotide.
+
+    Press Start whenever you feel like.'
 --- !u!222 &1794087745
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22390,9 +22246,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
   animator: {fileID: 0}
+  timeText: {fileID: 0}
+  resultsText: {fileID: 0}
 --- !u!1 &1803078680
 GameObject:
   m_ObjectHideFlags: 0
@@ -23636,7 +23492,6 @@ GameObject:
   - component: {fileID: 1918129313}
   - component: {fileID: 1918129312}
   - component: {fileID: 1918129311}
-  - component: {fileID: 1918129316}
   - component: {fileID: 1918129315}
   - component: {fileID: 1918129310}
   m_Layer: 5
@@ -23730,7 +23585,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1918129316}
+        - m_Target: {fileID: 1600393216}
           m_MethodName: SecondQuestion
           m_Mode: 1
           m_Arguments:
@@ -23786,7 +23641,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1918129316}
+      - m_Target: {fileID: 0}
         m_MethodName: SecondQuestion
         m_Mode: 1
         m_Arguments:
@@ -23850,21 +23705,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gazeTime: 2
---- !u!114 &1918129316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1918129308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
-  animator: {fileID: 1600393213}
 --- !u!1 &1925416925
 GameObject:
   m_ObjectHideFlags: 0
@@ -25134,9 +24974,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 80
-  timeText: {fileID: 329446385}
   animator: {fileID: 0}
+  timeText: {fileID: 329446385}
+  resultsText: {fileID: 0}
 --- !u!1 &2095774910
 GameObject:
   m_ObjectHideFlags: 0
@@ -25151,7 +24991,6 @@ GameObject:
   - component: {fileID: 2095774914}
   - component: {fileID: 2095774913}
   - component: {fileID: 2095774918}
-  - component: {fileID: 2095774917}
   - component: {fileID: 2095774912}
   m_Layer: 5
   m_Name: FirstQA
@@ -25244,7 +25083,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2095774917}
+        - m_Target: {fileID: 1600393216}
           m_MethodName: SecondQuestion
           m_Mode: 1
           m_Arguments:
@@ -25340,21 +25179,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095774910}
   m_CullTransparentMesh: 0
---- !u!114 &2095774917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095774910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c310d33c9aee44fa451200fdf0584a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeLeft: 60
-  timeText: {fileID: 0}
-  animator: {fileID: 1600393213}
 --- !u!114 &2095774918
 MonoBehaviour:
   m_ObjectHideFlags: 0

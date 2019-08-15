@@ -1,14 +1,17 @@
 ﻿using System.Collections.Generic;
-using UnityEngine.EventSystems;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class QuizScript : MonoBehaviour
 {
-    public float timeLeft;
-    public Text timeText;
-    private int questionNo = 0;
     public Animator animator;
+    public Text timeText;
+    public Text resultsText;
+
+    private int questionNo = 0;
+    private float timeLeft = 90.0f;
+    private string answers = "";
     private List<string> buttonList;
 
     void Start()
@@ -42,65 +45,68 @@ public class QuizScript : MonoBehaviour
         }
         else if (timeLeft <= 0)
         {
-            //GameEnded(0);
-            Start();
+            GameEnded(answers);
+        }
+        else if (timeLeft > 0 && questionNo == 16)
+        {
+            GameEnded(answers);
         }
 
         string buttonName = EventSystem.current.currentSelectedGameObject.name;
         buttonList.Add(buttonName);
+        answers += " " + buttonName;
 
-        foreach(string s in buttonList)
+        foreach (string s in buttonList)
         {
             Debug.Log(s);
         }
-
     }
 
     public void FirstQuestion()
     {
-        StartCoroutine(DisplayAfterOneSec("First Question","Welcome Screen"));
+        StartCoroutine(DisplayAfterOneSec("First Question", "Welcome Screen"));
         questionNo++;
     }
 
     public void SecondQuestion()
     {
-        StartCoroutine(DisplayAfterOneSec("Second Question","First Question"));
+        StartCoroutine(DisplayAfterOneSec("Second Question", "First Question"));
         questionNo++;
     }
 
     public void ThirdQuestion()
     {
-        StartCoroutine(DisplayAfterOneSec("Third Question","Second Question"));
+        StartCoroutine(DisplayAfterOneSec("Third Question", "Second Question"));
         questionNo++;
     }
 
     public void FourthQuestion()
     {
-        StartCoroutine(DisplayAfterOneSec("Fourth Question","Third Question"));
+        StartCoroutine(DisplayAfterOneSec("Fourth Question", "Third Question"));
         questionNo++;
     }
 
     public void FifthQuestion()
     {
-        StartCoroutine(DisplayAfterOneSec("Fifth Question","Fourth Question"));
+        StartCoroutine(DisplayAfterOneSec("Fifth Question", "Fourth Question"));
         questionNo++;
     }
 
     public void SixthQuestion()
     {
-        StartCoroutine(DisplayAfterOneSec("Sixth Question","Fifth Question"));
+        StartCoroutine(DisplayAfterOneSec("Sixth Question", "Fifth Question"));
         questionNo++;
     }
 
     public void SeventhQuestion()
     {
-        StartCoroutine(DisplayAfterOneSec("Seventh Question","Sixth Question"));
+        StartCoroutine(DisplayAfterOneSec("Seventh Question", "Sixth Question"));
         questionNo++;
     }
 
     public void EighthQuestion()
     {
-        StartCoroutine(DisplayAfterOneSec("Eighth Question","Seventh Question"));
+        StartCoroutine(DisplayAfterOneSec("Eighth Question", "Seventh Question"));
         questionNo++;
     }
 
@@ -112,7 +118,7 @@ public class QuizScript : MonoBehaviour
 
     public void TenthQuestion()
     {
-        StartCoroutine(DisplayAfterOneSec("Tenth Question","Ninth Question"));
+        StartCoroutine(DisplayAfterOneSec("Tenth Question", "Ninth Question"));
         questionNo++;
     }
 
@@ -154,9 +160,10 @@ public class QuizScript : MonoBehaviour
         animator.Play("Fade_In");
     }
 
-    public void GameEnded(float timeLeft)
+    public void GameEnded(string answersGiven)
     {
         GameObject.Find("Result Screen").transform.localScale = new Vector3(0.19f, 0.19f, 0.19f);
+        resultsText.text = answersGiven;
         GameObject.Find("Welcome Screen").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("First Question").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Second Question").transform.localScale = new Vector3(0, 0, 0);
