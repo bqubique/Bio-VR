@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -12,11 +11,12 @@ public class QuizScript : MonoBehaviour
 
     private int questionNo = 0;
     private float timeLeft = 90.0f;
-    private List<string> buttonList;
-    private List<string> answerList;
+    private float points;
+    bool gameFinished = false;
 
     void Start()
     {
+        points = 0.0f;
         GameObject.Find("Welcome Screen").transform.localScale = new Vector3(0.19f, 0.19f, 0.19f);
         GameObject.Find("Result Screen").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("First Question").transform.localScale = new Vector3(0, 0, 0);
@@ -34,48 +34,26 @@ public class QuizScript : MonoBehaviour
         GameObject.Find("Thirteenth Question").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Fourteenth Question").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Fifteenth Question").transform.localScale = new Vector3(0, 0, 0);
-        buttonList = new List<string>();
-        answerList = new List<string>();
-        fillAnswerList();
     }
 
     void Update()
     {
-        if (timeLeft > 0)
+        if (timeLeft > 0 && !gameFinished)
         {
             timeLeft -= Time.deltaTime;
             timeText.text = timeLeft.ToString("0");
         }
-        else if (timeLeft <= 0)
+        else if (timeLeft <= 0 || gameFinished)
         {
-            GameEnded(buttonList);
-        }
-        else if(questionNo == 15)
-        {
-            GameEnded(buttonList);
+            GameEnded(points);
         }
 
         string buttonName = EventSystem.current.currentSelectedGameObject.name;
-        buttonList.Add(buttonName);
-    }
 
-    private void fillAnswerList()
-    {
-        answerList.Add("FirstQA");
-        answerList.Add("SecondQA");
-        answerList.Add("ThirdQD");
-        answerList.Add("FourthQB");
-        answerList.Add("FifthQC");
-        answerList.Add("SixthQD");
-        answerList.Add("SeventhQD");
-        answerList.Add("EighthQC");
-        answerList.Add("NinthQD");
-        answerList.Add("TenthQB");
-        answerList.Add("EleventhQB");
-        answerList.Add("TwelfthQC");
-        answerList.Add("ThirteenthQB");
-        answerList.Add("FourteenthQA");
-        answerList.Add("FifteenthQD");
+        if (buttonName == "FirstQA" || buttonName == "SecondQA" || buttonName == "ThirdQD" || buttonName == "FourthQB" || buttonName == "FifthQC" || buttonName == "SixthQD" || buttonName == "SeventhQD" || buttonName == "EighthQC" || buttonName == "NinthQD" || buttonName == "TenthQB" || buttonName == "EleventhQB" || buttonName == "TwelfthQC" || buttonName == "ThirteenthQB" || buttonName == "FourteenthQA" || buttonName == "FifteenthQD")
+        {
+            points += 6.66f;
+        }
     }
 
     public void FirstQuestion()
@@ -167,6 +145,14 @@ public class QuizScript : MonoBehaviour
         StartCoroutine(DisplayAfterOneSec("Fifteenth Question", "Fourteenth Question"));
         questionNo++;
     }
+
+    public void FinishedOnTime()
+    {
+        gameFinished = true;
+        StartCoroutine(DisplayAfterOneSec("Result Screen", "Fifteenth Question"));
+        GameEnded(points);
+    }
+
     public System.Collections.IEnumerator DisplayAfterOneSec(string questionToDisplay, string questionToDisappear)
     {
         animator.Play("Fade_Out");
@@ -176,8 +162,10 @@ public class QuizScript : MonoBehaviour
         animator.Play("Fade_In");
     }
 
-    private void GameEnded(List<string> listGiven)
+    private void GameEnded(float points)
     {
+        Debug.Log("RESULT IS ======="+points);
+        resultsText.text = "Your result is : \n" + points;
         GameObject.Find("Result Screen").transform.localScale = new Vector3(0.19f, 0.19f, 0.19f);
         GameObject.Find("Welcome Screen").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("First Question").transform.localScale = new Vector3(0, 0, 0);
@@ -195,25 +183,5 @@ public class QuizScript : MonoBehaviour
         GameObject.Find("Thirteenth Question").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Fourteenth Question").transform.localScale = new Vector3(0, 0, 0);
         GameObject.Find("Fifteenth Question").transform.localScale = new Vector3(0, 0, 0);
-        List<int> finalList = compareLists(listGiven);
-        Debug.Log(finalList.ToString());
-
-    }
-
-    private List<int> compareLists(List<string> givenAnswers)
-    {
-        List<int> returnedList = new List<int>();
-        for(int i=0; i<givenAnswers.Count; ++i)
-        {
-            if(givenAnswers[i] != answerList[i])
-            {
-                returnedList[i] = 0;
-            }
-            else
-            {
-                returnedList[i] = 1;
-            }
-        }
-        return returnedList;
     }
 }
