@@ -6,6 +6,7 @@ public class SceneChanger : MonoBehaviour
 {
     public Animator animator;
     private Camera mainCamera;
+
     void Start()
     {
         GameObject.Find("First Canvas Group").transform.localScale = new Vector3(1, 1, 1);
