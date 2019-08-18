@@ -69,7 +69,7 @@ public class SceneChanger : MonoBehaviour
     {
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneShown = currentScene.name;
-        if (sceneShown == "WelcomeScreen")
+        if (sceneShown == "WelcomeScene")
         {
             return;
         }
