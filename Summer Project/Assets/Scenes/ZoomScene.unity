@@ -460,7 +460,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.4}
+  m_AnchoredPosition: {x: 0, y: -14}
   m_SizeDelta: {x: 330, y: 137.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &42046841
@@ -496,12 +496,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DNA, or deoxyribonucleic acid, is the hereditary material in humans and
+  m_Text: 'DNA, or deoxyribonucleic acid, is the hereditary material in humans and
     almost all other organisms. It is also called the blueprint of life. Nearly every
-    cell in a person's body has the same DNA. Most DNA is located in the cell nucleus
+    cell in a person''s body has the same DNA. Most DNA is located in the cell nucleus
     (where it is called nuclear DNA), but a small amount of DNA can also be found
-    in the mitochondria. DNA has a process called replication where two identical
-    DNA are produced.
+    in the mitochondria. '
 --- !u!222 &42046842
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5767,227 +5766,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440442664}
   m_CullTransparentMesh: 0
---- !u!1001 &442590947
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 913975602}
-    m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_Name
-      value: Gene
-      objectReference: {fileID: 0}
-    - target: {fileID: -3230764363763679016, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -780543292720005824, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -1447333987488043328, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7387222906505351675, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952656265019502148, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.7797297
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 71.319664
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -168
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 42f08381e44b6ce4bab5befb7abb4d53, type: 3}
---- !u!4 &442590948 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-    type: 3}
-  m_PrefabInstance: {fileID: 442590947}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &442590949 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-    type: 3}
-  m_PrefabInstance: {fileID: 442590947}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &442590950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442590949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 442590954}
-          m_MethodName: PointerEnter
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 442590954}
-          m_MethodName: PointerExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 442590953}
-          m_MethodName: GeneZoom
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &442590951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442590949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e4342f52d168245876870cb757ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!65 &442590952
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442590949}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.937017, y: 7.995573, z: 1.368042}
-  m_Center: {x: -0.0040004253, y: 0.20934772, z: 0.005432129}
---- !u!114 &442590953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442590949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
---- !u!114 &442590954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442590949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd85d9c80668268499e6d8ce0e32906e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gazeTime: 2
 --- !u!1 &481856944
 GameObject:
   m_ObjectHideFlags: 0
@@ -6620,7 +6398,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 12.3201275, z: 1}
+  m_Size: {x: 1, y: 12.3201275, z: 10}
   m_Center: {x: 0, y: 5.6600637, z: 0}
 --- !u!114 &512234156
 MonoBehaviour:
@@ -7804,13 +7582,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'A gene is the basic physical and functional unit of heredity. Genes are
+  m_Text: A gene is the basic physical and functional unit of heredity. Genes are
     made up of DNA. Some genes act as instructions to make molecules called proteins.
-
-    However,
-    many genes do not code for proteins. In humans, genes vary in size from a few
-    hundred DNA bases to more than 2 million bases. The Human Genome Project estimated
-    that humans have between 20,000 and 25,000 genes.'
+    However, many genes do not code for proteins. In humans, genes vary in size from
+    a few hundred DNA bases to more than 2 million bases. The Human Genome Project
+    estimated that humans have between 20,000 and 25,000 genes.
 --- !u!222 &656246584
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10534,7 +10310,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 2}
+  m_AnchoredPosition: {x: 0, y: -2}
   m_SizeDelta: {x: 330, y: 136.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &791108878
@@ -11654,6 +11430,110 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871464886}
   m_CullTransparentMesh: 0
+--- !u!1001 &873857482
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 913975602}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_Name
+      value: Gene
+      objectReference: {fileID: 0}
+    - target: {fileID: -7387222906505351675, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.85
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -162
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -3230764363763679016, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1447333987488043328, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -780543292720005824, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5336b21fdb86de47a4bb8ca550b3ce0, type: 3}
 --- !u!1001 &885014167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12201,14 +12081,130 @@ Transform:
   m_LocalPosition: {x: -1.7797297, y: -71.319664, z: 2209.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 917716293}
   - {fileID: 970302112}
   - {fileID: 1700660492}
   - {fileID: 1110919577}
   - {fileID: 1926098958}
-  - {fileID: 442590948}
+  - {fileID: 1814170912}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &917716292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+    type: 3}
+  m_PrefabInstance: {fileID: 873857482}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &917716293 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: e5336b21fdb86de47a4bb8ca550b3ce0,
+    type: 3}
+  m_PrefabInstance: {fileID: 873857482}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &917716294
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917716292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.685363, y: 2.27, z: 11.4}
+  m_Center: {x: -0.2392222, y: 1.08, z: -1.741372}
+--- !u!114 &917716295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917716292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8268af7d0b345469026c93d0648b9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+--- !u!114 &917716296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917716292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd85d9c80668268499e6d8ce0e32906e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gazeTime: 2
+--- !u!114 &917716297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917716292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 917716296}
+          m_MethodName: PointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 917716296}
+          m_MethodName: PointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 917716295}
+          m_MethodName: GeneZoom
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, Unity.ugui,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &932386688
 GameObject:
   m_ObjectHideFlags: 0
@@ -13527,7 +13523,7 @@ RectTransform:
   - {fileID: 1046517038}
   - {fileID: 953430999}
   m_Father: {fileID: 913975602}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -45, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14521,7 +14517,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
         type: 3}
@@ -16061,7 +16057,7 @@ RectTransform:
   - {fileID: 238928926}
   - {fileID: 239255329}
   m_Father: {fileID: 913975602}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -17539,7 +17535,7 @@ MonoBehaviour:
     structures called chromosomes. Each chromosome is made up of DNA tightly coiled
     many times around proteins called histones that support its structure. Each chromosome
     has a constriction point called the centromere, which divides the chromosome
-    into two sections, or \u201Carms."
+    into two sections, or \u201Carms\"."
 --- !u!222 &1261753026
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22951,7 +22947,7 @@ RectTransform:
   - {fileID: 392373987}
   - {fileID: 1709541738}
   m_Father: {fileID: 913975602}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -24450,6 +24446,97 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812279212}
   m_CullTransparentMesh: 0
+--- !u!1 &1814170911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1814170912}
+  - component: {fileID: 1814170913}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1814170912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814170911}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.02, y: 77.2, z: -169}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 913975602}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1814170913
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814170911}
+  m_Enabled: 1
+  serializedVersion: 9
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 62.64
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &1821262604
 GameObject:
   m_ObjectHideFlags: 0
@@ -26858,13 +26945,13 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926098957}
   m_LocalRotation: {x: 0.60876137, y: -0, z: -0, w: 0.7933534}
-  m_LocalPosition: {x: 0, y: 0, z: -148.59998}
+  m_LocalPosition: {x: 0, y: 0, z: -140}
   m_LocalScale: {x: 0.19, y: 0.19000001, z: 0.19000001}
   m_Children:
   - {fileID: 693331965}
   - {fileID: 1903511489}
   m_Father: {fileID: 913975602}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 75, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -27131,7 +27218,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947711138}
   m_LocalRotation: {x: 0.60876137, y: -0, z: -0, w: 0.7933534}
-  m_LocalPosition: {x: 0, y: 0, z: -144.08507}
+  m_LocalPosition: {x: 0, y: 0, z: -140}
   m_LocalScale: {x: 0.19, y: 0.19000001, z: 0.19000001}
   m_Children:
   - {fileID: 723320186}
@@ -29598,13 +29685,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'It is a common misconception that James Watson and Francis Crick discovered
-    DNA, when in fact they Watson and Crick discovered DNA''s Double Helix
-
-    structure.
+  m_Text: "It is a common misconception that James Watson and Francis Crick discovered
+    DNA, when in fact they, Watson and Crick, discovered DNA's Double Helix\r structure.
     An important property of DNA is that it can replicate, or make copies of itself.
     DNA bases pair up with each other, A with T and C with G, to form units called
-    base pairs. Each base is also attached to a sugar molecule and a phosphate molecule.'
+    base pairs. Each base is also attached to a sugar molecule and a phosphate molecule."
 --- !u!222 &2133624542
 CanvasRenderer:
   m_ObjectHideFlags: 0

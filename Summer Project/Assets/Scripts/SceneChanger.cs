@@ -69,7 +69,7 @@ public class SceneChanger : MonoBehaviour
     {
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneShown = currentScene.name;
-        if (sceneShown == "WelcomeScreen")
+        if (sceneShown == "WelcomeScene")
         {
             return;
         }
@@ -108,7 +108,7 @@ public class SceneChanger : MonoBehaviour
     {
         GameObject.Find("Fourth Canvas Group").transform.localScale = new Vector3(1, 1, 1);
         GameObject.Find("intronExon").transform.localScale = new Vector3(1.5f, 1, 1.5f);
-        StartCoroutine(CameraZoom(3465));
+        StartCoroutine(CameraZoom(3455));
         StartCoroutine(WaitASecond("Third Canvas Group"));
     }
 

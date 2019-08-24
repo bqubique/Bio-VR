@@ -26,6 +26,7 @@ public class rotationScript : MonoBehaviour
         GameObject.Find("Chromosome").transform.Rotate(Vector3.down * 4 * Time.deltaTime);
         GameObject.Find("Chromosome").transform.position = new Vector3(chromosomeStartPosition.x, chromosomeStartPosition.y - 0.6f + Mathf.Sin(Time.time * 1.2f), 10);
         GameObject.Find("DNA").transform.Rotate(Vector3.up * 8 * Time.deltaTime);
+        GameObject.Find("Gene").transform.Rotate(Vector3.up * 20 * Time.deltaTime);
         GameObject.Find("IEDNA").transform.Rotate(Vector3.forward * 20 * Time.deltaTime);
         if (GameObject.Find("Adenine").transform.localScale == new Vector3(0, 0, 0))
         {

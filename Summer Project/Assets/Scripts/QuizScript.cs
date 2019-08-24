@@ -8,7 +8,7 @@ public class QuizScript : MonoBehaviour
     public Text timeText;
     public Text resultsText;
 
-    private float timeLeft = 80.0f;
+    private float timeLeft = 100.0f;
     private float points;
 
     void Start()
@@ -45,7 +45,6 @@ public class QuizScript : MonoBehaviour
         {
             GameEnded(points);
         }
-
         string buttonName = EventSystem.current.currentSelectedGameObject.name;
 
         //Check for correct answers
