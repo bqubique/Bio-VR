@@ -673,8 +673,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 15. One side of a DNA strand is coded AGTCAGGATTC, what is the other side
-    of the DNA strand?
+  m_Text: 15. One side of a DNA strand is coded AGTCA, what is the other side of
+    the DNA strand?
 --- !u!222 &58542720
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2194,7 +2194,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. One
+  m_Text: A. Adenine
 --- !u!222 &149399643
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2488,7 +2488,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 12. DNA can be found in what organelles in the cell?
+  m_Text: '12. Another name for the introns is:'
 --- !u!222 &193446494
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2567,7 +2567,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. TCAGTCCTAAG
+  m_Text: D. TCAGT
 --- !u!222 &195543379
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3423,7 +3423,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Carbohydrate
+  m_Text: A. One
 --- !u!222 &224522404
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4033,7 +4033,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Alleles
+  m_Text: D. Organism dies
 --- !u!222 &280888282
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4222,7 +4222,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Mitochondria and Chloroplast
+  m_Text: C. Junk DNA
 --- !u!222 &303031061
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5040,7 +5040,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Mitochondria only
+  m_Text: B. Useful DNA
 --- !u!222 &389022393
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5232,7 +5232,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Tus protein
+  m_Text: C. Between 20,000-25,000 genes
 --- !u!222 &438401151
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5636,7 +5636,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Chromosome
+  m_Text: B. Two
 --- !u!222 &455011828
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6198,7 +6198,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. SSB
+  m_Text: B. Exactly 10,000 genes
 --- !u!222 &489168487
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6467,7 +6467,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6. How many types of nucleotides are there in DNA?
+  m_Text: 6. Which of the following nucleic acids is not found in DNA?
 --- !u!222 &504306750
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6803,7 +6803,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3. Most genes within DNA hold instructions for the cell to make a specific
+  m_Text: 3. How many types of Cell Division are there?
 --- !u!222 &552730066
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7636,7 +7636,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Membrane
+  m_Text: A. Protein producing DNA
 --- !u!222 &607805655
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7814,7 +7814,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Three
+  m_Text: C. Thymine
 --- !u!222 &631948272
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8345,7 +8345,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Endoplasmic reticulum and Mitochondria
+  m_Text: D. Tertiary DNA
 --- !u!222 &718825864
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9054,7 +9054,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. TCATTGGTAAT
+  m_Text: A. TCATT
 --- !u!222 &770220179
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9133,7 +9133,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Collagen
+  m_Text: C. 15
 --- !u!222 &789498911
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10122,7 +10122,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Genes
+  m_Text: B. DNA undergoes replication
 --- !u!222 &843586706
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12182,7 +12182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. TCAGTCCTGGT
+  m_Text: C. TCAGT
 --- !u!222 &998226833
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14187,7 +14187,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 10. What replaces thymine from DNA in RNA?
+  m_Text: 10. Exons are ______ part of the DNA.
 --- !u!222 &1108799103
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14526,7 +14526,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Chromosomes
+  m_Text: A. DNA turns into RNA
 --- !u!222 &1140960952
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16515,7 +16515,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 9. What does a nucleotide consist of?
+  m_Text: 9. Human Genome project took __ years to map human genome.
 --- !u!222 &1319610703
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17307,7 +17307,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. A phosphate group and a Nitrogen Base
+  m_Text: B. 13
 --- !u!222 &1375628326
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17881,7 +17881,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. DNA Polymerase
+  m_Text: D. Four main genes (A,T,G,C)
 --- !u!222 &1407437667
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18217,7 +18217,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. TCAUTCCTAAG
+  m_Text: B. TCAUT
 --- !u!222 &1431572912
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19101,7 +19101,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Adenine
+  m_Text: A. Replicating
 --- !u!222 &1496657912
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19180,7 +19180,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. DnaC
+  m_Text: A. Around 10,000 genes
 --- !u!222 &1521010194
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20481,7 +20481,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Adenine Thymine Guanine Cytosine
+  m_Text: A. 10
 --- !u!222 &1636350009
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21253,7 +21253,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Ribose sugar
+  m_Text: C. Removable
 --- !u!222 &1702701893
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21423,7 +21423,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 5. What is another name for the nucleotides in DNA?
+  m_Text: '5. Chromosomes are only visible under microscope when:'
 --- !u!222 &1737072598
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21502,7 +21502,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Two
+  m_Text: B. Cytosine
 --- !u!222 &1751476578
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22064,7 +22064,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Nothing
+  m_Text: D. Outer
 --- !u!222 &1765532921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22143,7 +22143,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Protein
+  m_Text: D. 42
 --- !u!222 &1774840619
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22801,7 +22801,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Four
+  m_Text: D. Uracil
 --- !u!222 &1847601478
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23106,7 +23106,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 8. Name the protein, which is used for termination of replication?
+  m_Text: '8. According to the Human Genome Project, humans have :'
 --- !u!222 &1878107201
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23935,7 +23935,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Sugar, phosphate group, and a nitrogenous base
+  m_Text: D. 17
 --- !u!222 &1925416928
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24158,7 +24158,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Lipid
+  m_Text: C. Four
 --- !u!222 &1928762178
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24270,7 +24270,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. Bases
+  m_Text: C. They undergo cell division
 --- !u!222 &1964964479
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24855,7 +24855,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Uracil
+  m_Text: B. Coding
 --- !u!222 &2066017901
 CanvasRenderer:
   m_ObjectHideFlags: 0

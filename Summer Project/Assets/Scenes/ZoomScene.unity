@@ -461,7 +461,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -0.4}
-  m_SizeDelta: {x: 330, y: 103}
+  m_SizeDelta: {x: 330, y: 137.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &42046841
 MonoBehaviour:
@@ -497,9 +497,11 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: DNA, or deoxyribonucleic acid, is the hereditary material in humans and
-    almost all other organisms. Nearly every cell in a person's body has the same
-    DNA. Most DNA is located in the cell nucleus (where it is called nuclear DNA),
-    but a small amount of DNA can also be found in the mitochondria."
+    almost all other organisms. It is also called the blueprint of life. Nearly every
+    cell in a person's body has the same DNA. Most DNA is located in the cell nucleus
+    (where it is called nuclear DNA), but a small amount of DNA can also be found
+    in the mitochondria. DNA has a process called replication where two identical
+    DNA are produced.
 --- !u!222 &42046842
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1836,16 +1838,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: intronExon
       objectReference: {fileID: 0}
-    - target: {fileID: -6915819657105789754, guid: 7eb51e51995322448844c22b75c70f51,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3ea6aee0a7cc476458a547a77bf0414e, type: 2}
     - target: {fileID: -4425609515867240179, guid: 7eb51e51995322448844c22b75c70f51,
         type: 3}
       propertyPath: m_Name
       value: IEDNA
       objectReference: {fileID: 0}
+    - target: {fileID: 4745788036908658983, guid: 7eb51e51995322448844c22b75c70f51,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6915819657105789754, guid: 7eb51e51995322448844c22b75c70f51,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ea6aee0a7cc476458a547a77bf0414e, type: 2}
     - target: {fileID: -4216859302048453862, guid: 7eb51e51995322448844c22b75c70f51,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1941,11 +1948,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 240e82cefe4567a45b9fa1d8937e7ec6, type: 2}
-    - target: {fileID: 4745788036908658983, guid: 7eb51e51995322448844c22b75c70f51,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6882831152338058926, guid: 7eb51e51995322448844c22b75c70f51,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5777,10 +5779,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gene
       objectReference: {fileID: 0}
+    - target: {fileID: -3230764363763679016, guid: 42f08381e44b6ce4bab5befb7abb4d53,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -780543292720005824, guid: 42f08381e44b6ce4bab5befb7abb4d53,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1447333987488043328, guid: 42f08381e44b6ce4bab5befb7abb4d53,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -7387222906505351675, guid: 42f08381e44b6ce4bab5befb7abb4d53,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952656265019502148, guid: 42f08381e44b6ce4bab5befb7abb4d53,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
         type: 3}
@@ -5836,26 +5858,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3230764363763679016, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -1447333987488043328, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -780543292720005824, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952656265019502148, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42f08381e44b6ce4bab5befb7abb4d53, type: 3}
@@ -14456,10 +14458,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: DNA
       objectReference: {fileID: 0}
+    - target: {fileID: -3230764363763679016, guid: 42f08381e44b6ce4bab5befb7abb4d53,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -780543292720005824, guid: 42f08381e44b6ce4bab5befb7abb4d53,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1447333987488043328, guid: 42f08381e44b6ce4bab5befb7abb4d53,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -7387222906505351675, guid: 42f08381e44b6ce4bab5befb7abb4d53,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5952656265019502148, guid: 42f08381e44b6ce4bab5befb7abb4d53,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 42f08381e44b6ce4bab5befb7abb4d53,
         type: 3}
@@ -14520,26 +14542,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.41
-      objectReference: {fileID: 0}
-    - target: {fileID: -3230764363763679016, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -1447333987488043328, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -780543292720005824, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952656265019502148, guid: 42f08381e44b6ce4bab5befb7abb4d53,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42f08381e44b6ce4bab5befb7abb4d53, type: 3}
@@ -18298,6 +18300,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cytosine
       objectReference: {fileID: 0}
+    - target: {fileID: 680221170294918469, guid: 15ec959182c008b429187576c7d454b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8174915261405794079, guid: 15ec959182c008b429187576c7d454b5,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -18417,11 +18424,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -21.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 680221170294918469, guid: 15ec959182c008b429187576c7d454b5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 733744871908470125, guid: 15ec959182c008b429187576c7d454b5,
         type: 3}

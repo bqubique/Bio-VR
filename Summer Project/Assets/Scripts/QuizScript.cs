@@ -49,7 +49,7 @@ public class QuizScript : MonoBehaviour
         string buttonName = EventSystem.current.currentSelectedGameObject.name;
 
         //Check for correct answers
-        if (buttonName == "FirstQA" || buttonName == "SecondQA" || buttonName == "ThirdQD" || buttonName == "FourthQB" || buttonName == "FifthQC" || buttonName == "SixthQD" || buttonName == "SeventhQD" || buttonName == "EighthQC" || buttonName == "NinthQD" || buttonName == "TenthQB" || buttonName == "EleventhQB" || buttonName == "TwelfthQC" || buttonName == "ThirteenthQB" || buttonName == "FourteenthQA" || buttonName == "FifteenthQD")
+        if (buttonName == "FirstQA" || buttonName == "SecondQA" || buttonName == "ThirdQB" || buttonName == "FourthQB" || buttonName == "FifthQC" || buttonName == "SixthQD" || buttonName == "SeventhQD" || buttonName == "EighthQC" || buttonName == "NinthQB" || buttonName == "TenthQB" || buttonName == "EleventhQB" || buttonName == "TwelfthQC" || buttonName == "ThirteenthQB" || buttonName == "FourteenthQA" || buttonName == "FifteenthQD")
         {
             points += 6.66f;
         }
