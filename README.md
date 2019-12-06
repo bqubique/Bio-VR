@@ -25,9 +25,9 @@ Used to display the Cell Division as an animation and read extra information abo
 ### Quiz scene
 A small quiz to test the knowledge of the user after having tried all the scenes. Has a specific timer, and prints the result of the quiz at the end.
 
-<!-- [![In-Quiz](https://i.postimg.cc/zfT9NrhY/Summer-Project-Welcome-Scene-Android-Unity-2019-3-0a5-Perso.jpg)](https://postimg.cc/062tGhZV)
+[![In-Quiz](https://i.postimg.cc/zfT9NrhY/Summer-Project-Welcome-Scene-Android-Unity-2019-3-0a5-Perso.jpg)](https://postimg.cc/062tGhZV)
 [![In-Quiz-2](https://i.postimg.cc/26mg8Kdb/Summer-Project-Welcome-Scene-Android-Unity-2019-3-0a5-Perso.jpg)](https://postimg.cc/Jy6ppK2M)
-[![Result](https://i.postimg.cc/RZkj2FNT/Summer-Project-Welcome-Scene-Android-Unity-2019-3-0a5-Perso.jpg)](https://postimg.cc/0zCWw9G6) -->
+[![Result](https://i.postimg.cc/RZkj2FNT/Summer-Project-Welcome-Scene-Android-Unity-2019-3-0a5-Perso.jpg)](https://postimg.cc/0zCWw9G6)
 
 ## Steps
 We divided the project into two parts:
