@@ -31,7 +31,7 @@ A small quiz to test the knowledge of the user after having tried all the scenes
 
 ## Steps
 We divided the project into two parts:
-+ ### Modelling with blender
++ ### Modeling with blender
   
     Learning the basics of blender, and building the DNA, Chromosome, Introns, Exons, Adenine Guanine, Cytosine and Thymine in blender and then importing these objects as assets to use with Unity game engine.
 + ### Building the scenes with Unity 3D game engine and C# programming language
