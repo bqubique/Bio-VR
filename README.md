@@ -1,7 +1,7 @@
 # Bio-VR
 An Android Virtual Reality application, which displays basic biological information in 3-D space using Google Cardboard. Built using Unity 3D game engine, Google Cardboard SDK for VR support, blender for 3D asset creation.
 
-## Sections
+## Table of Contents
 - [Bio-VR](#bio-vr)
   - [Sections](#sections)
   - [Information](#information)
